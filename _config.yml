@@ -3,7 +3,7 @@ title: Louis Theran
 email: louis.theran@aalto.fi
 # description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://louistheran.cc" # the base hostname & protocol for your site
+url: "http://theran.github.io" # the base hostname & protocol for your site
 github_username:  theran
 twitter_username: louistheran
 
