@@ -13,3 +13,5 @@ is still at <http://math.fu-berlin.de/~theran/>.
 The code and layouts are derived from Jekyll, and inherit that
 license.  All the site contents is copyright Louis Theran and 
 may not be used except at the site <http://theran.github.io>.
+
+[jekyll]: http://jekyllrb.com/
