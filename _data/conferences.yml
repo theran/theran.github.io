@@ -2,3 +2,18 @@ nips:
     name: Advances in Neural Information Processing Systems
     shortname: NIPS
     url: http://nips.cc/
+cccg:
+    name: Canadian Conference on Computational Geometry
+    shortname: CCCG
+    url: http://cccg.ca/
+socg:
+    name: ACM Symposium on Computational Geometry
+    shortname: SoCG
+    url: http://www.computational-geometry.org/
+soda:
+    name: ACM-SIAM Symposium on Discrete Algorithms
+    shortname: SODA
+wads:
+    name: Workshop on Algorithms and Data Structures
+    shortname: WADS
+    url: http://www.wads.org/

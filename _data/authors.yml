@@ -1,18 +1,31 @@
+berardi:
+    name: Matthew Berardi
 karim:
     name: Karim A. Adiprasito
     url: http://page.mi.fu-berlin.de/adiprasito/
 ruth:
     name: Ruth Haas
     url: http://cs.smith.edu/~rhaas/
+brent:
+    name: Brent Heeringa
+    url: http://dept.cs.williams.edu/~heeringa/
+shiva:
+    name: Shiva Kasiviswanathan
+    url: http://www.cse.psu.edu/~kasivisw/
 franz:
     name: Franz J. Király
     url: http://www.ucl.ac.uk/statistics/people/franz-kiraly/
+catalin:
+    name: Marius Cătălin Iordan
 audreylee:
     name: Audrey Lee
     url: http://minerva.cs.mtholyoke.edu/
 justin:
     name: Justin Malestein
     url: http://www.math.uni-bonn.de/~justinm/
+cris:
+    name: Cristopher Moore
+    url: http://tuvalu.santafe.edu/~moore/
 arnau:
     name: Arnau Padrol
     url: http://page.mi.fu-berlin.de/arnaupadrol/

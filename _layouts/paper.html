@@ -19,10 +19,8 @@ layout: default
                 {% assign journal = site.data.journals[page.journal] %}
                 {% if journal.url %}
                     <a class="journal-title" 
-                        href="{{journal.url}}">{{journal.title}}</a>
-                {% else %}
-                    <span class="journal-title">{{journal.title}}</a>
-                {% endif %}{% if page.volume %}, <span class="journal-volume">{{page.volume}}</span>{% if page.issue %}<span class="journal-issue">{{page.issue}}</span>{% if page.pages %}<span class="journal-pages">{{page.pages}}</span>{% endif %}{% endif %}{% endif %}{% if page.year %}, <span class="journal-year">{{page.year}}</span>.
+                        href="{{journal.url}}">{{journal.title}}</a>{% else %}
+                    <span class="journal-title">{{journal.title}}</a>{% endif %}{% if page.volume %}, <span class="journal-volume">{{page.volume}}</span>{% if page.issue %}<span class="journal-issue">{{page.issue}}</span>{% if page.pages %}<span class="journal-pages">{{page.pages}}</span>{% endif %}{% endif %}{% endif %}{% if page.year %}, <span class="journal-year">{{page.year}}</span>.
                 {% else %},<span class="journal-to-appear">to appear</span>.
                 {% endif %}
             </reference>
@@ -36,8 +34,7 @@ layout: default
                 <span class="conference-name">{{conference.name}}</span>
             {% endif %}
             {% if page.conferenceprocname %}
-                <span class="conference-procname">{{page.conferenceprocname}}</span>{% endif %}{% if page.pages %}, <span class="conference-pages">{{page.pages}}</span>
-            {% endif %}{% if page.year %}, <span class="conference-year">{{page.year}}</span>{% endif %}.
+                <span class="conference-procname">{{page.conferenceprocname}}</span>{% endif %}{% if page.pages %}, <span class="conference-pages">{{page.pages}}</span>{% endif %}{% if page.year %}, <span class="conference-year">{{page.year}}</span>{% endif %}.
         </reference>
     {% when "preprint" %}
         <reference class="paper-preprint-ref">
