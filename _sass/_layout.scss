@@ -165,8 +165,12 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+h1.page-heading {
+    font-size: 30px;
+}
+
+h2.page-heading {
+    font-size: 25px;
 }
 
 .post-list {
@@ -233,4 +237,163 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Papers
+ */
+h1.paper-title {
+    font-size: 30px;
+    margin-bottom: 1.5 * $spacing-unit;
+}
+.paper-authors {
+    display: block;
+}
+
+.paper-authors:before {
+    content: "Authors:";
+    color: $grey-color;
+    padding-right: 20px;
+}
+
+.paper-journal-ref {
+    display: block;
+}
+
+.paper-journal-ref:before {
+    content: "Journal:";
+    color: $grey-color;
+    padding-right: 20px;
+}
+
+.journal-title {
+    font-style: italic;
+}
+
+.journal-volume {
+    font-weight: bold;
+}
+
+.journal-issue:before {
+    content: "(";
+}
+
+.journal-issue:after {
+    content: ")";
+}
+
+.journal-pages:before {
+    content: ":";
+}
+
+.paper-conference-ref {
+    display: block;
+}
+
+.paper-conference-ref:before {
+    content: "Proc. of:";
+    color: $grey-color;
+    padding-right: 20px;
+}
+
+.conference-procname:before {
+    content: "(";
+}
+
+.conference-procname:after {
+    content: ")";
+}
+
+.paper-preprint-ref {
+    display: block;
+}
+
+.paper-preprint-ref:before {
+    content: "Preprint:";
+    color: $grey-color;
+    padding-right: 20px;
+}
+
+.preprint-arxiv-id:before {
+    content: "arXiv:";
+}
+
+.paper-text {
+    display: block;
+}
+
+.paper-text:before {
+    content: "Full text:";
+    color: $grey-color;
+    padding-right: 20px;
+}
+
+.paper-abstract {
+    display: block;
+    margin-top: 1.5 * $spacing-unit;
+}
+
+.paper-abstract:before {
+    content: "Abstract:";
+    color: $grey-color;
+    font-weight: bold;
+}
+
+.paper-text-sep {
+    font-size: $bullet-inline-scale;
+}
+
+/**
+ * author list
+ */
+.author-list {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+}
+.author-list li {
+    display: inline;
+}
+
+.author-list li:not(:first-child):before {
+    content: " • ";
+    font-size: $bullet-inline-scale;
+}
+
+/**
+ * paper lists
+ */
+
+.journal-papers-list, .conference-papers-list, .preprints-list {
+    margin-bottom: 0.75 * $spacing-unit;
+}
+
+.paper-list-paper {
+    display: block;
+    margin-top: 0.5 * $spacing-unit;
+}
+
+.paper-list-title {
+    display: block;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.paper-list-reference {
+    display: block;
+    color: $grey-color-dark;
+    line-height: 1.1;
+}
+
+.paper-list-authors {
+    display: block;
+    color: $grey-color-dark;
+    line-height: 1.1;
+}
+
+/**
+ * contact information
+ */
+.contact-info-mailing-address {
+    line-height: 1.2;
 }

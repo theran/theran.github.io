@@ -7,5 +7,13 @@ url: "http://theran.github.io" # the base hostname & protocol for your site
 github_username:  theran
 twitter_username: louistheran
 
+# exclude from generating co-authors
+my_authortag: louis
+
+# collections
+collections:
+    papers:
+        output: true
+
 # Build settings
 markdown: kramdown
