@@ -1,22 +1,36 @@
-berardi:
-    name: Matthew Berardi
 karim:
     name: Karim A. Adiprasito
     url: http://page.mi.fu-berlin.de/adiprasito/
+berardi:
+    name: Matthew Berardi
+duncan:
+    name: Duncan Blythe
+    url: http://www.ml.tu-berlin.de/menue/members/duncan_blythe/
+farre:
+    name: James Farre
+    url: http://www.math.utah.edu/~farre/
 ruth:
     name: Ruth Haas
     url: http://cs.smith.edu/~rhaas/
 brent:
     name: Brent Heeringa
     url: http://dept.cs.williams.edu/~heeringa/
+catalin:
+    name: Marius Cătălin Iordan
 shiva:
     name: Shiva Kasiviswanathan
     url: http://www.cse.psu.edu/~kasivisw/
 franz:
     name: Franz J. Király
     url: http://www.ucl.ac.uk/statistics/people/franz-kiraly/
-catalin:
-    name: Marius Cătălin Iordan
+kleinschmidt:
+    name: Helena Kleinschmidt
+martin:
+    name: Martin Kreuzer
+    url: http://staff.fim.uni-passau.de/~kreuzer/
+audrey:
+    name: Audrey Lee-St. John
+    url: http://minerva.cs.mtholyoke.edu/
 audreylee:
     name: Audrey Lee
     url: http://minerva.cs.mtholyoke.edu/
@@ -32,9 +46,23 @@ arnau:
 igor:
     name: Igor Rivin
     url: https://math.temple.edu/~rivin/
+zvi:
+    name: Zvi Rosen
+    url: http://math.berkeley.edu/~zhrosen/
+jessica:
+    name: Jessica Sidman
+    url: http://www.mtholyoke.edu/~jsidman/
+stark:
+    name: Stephanie Stark
 ileana:
     name: Ileana Streinu
     url: http://cs.smith.edu/~streinu/
 louis:
     name: Louis Theran
     url: http://theran.github.io/
+ryota:
+    name: Ryota Tomioka
+    url: http://ttic.uchicago.edu/~ryotat/
+uno:
+    name: Takeaki Uno
+    url: http://research.nii.ac.jp/~uno/
