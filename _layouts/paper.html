@@ -6,16 +6,16 @@ layout: default
   <header class="paper-header">
     <h1 class="paper-title">{{ page.title }}</h1>
     {% if page.authors %}
-            <authors class="paper-authors">
+            <div class="paper-authors">
             {% for author in page.authors %}
                 {% assign author_h = site.data.authors[author] %}
                 {% if author_h.url %}
                     <a href="{{ author_h.url }}">{{ author_h.name }}</a>{% else %}{{ author_h.name }}{% endif %}{% if forloop.length == 2 %}{% if forloop.first %} and {% endif %}{% elsif forloop.length > 2 %}{% if forloop.rindex > 2 %}, {% elsif forloop.rindex == 2 %}, and {% endif %}{% endif %}{% endfor %}
-            </authors>
+            </div>
     {% endif %}
     {% case page.type %}
     {% when "journal" %}
-            <reference class="paper-journal-ref">
+            <div class="paper-journal-ref">
                 {% assign journal = site.data.journals[page.journal] %}
                 {% if journal.url %}
                     <a class="journal-title" 
@@ -23,25 +23,25 @@ layout: default
                     <span class="journal-title">{{journal.title}}</a>{% endif %}{% if page.volume %}, <span class="journal-volume">{{page.volume}}</span>{% if page.issue %}<span class="journal-issue">{{page.issue}}</span>{% if page.pages %}<span class="journal-pages">{{page.pages}}</span>{% endif %}{% endif %}{% endif %}{% if page.year %}, <span class="journal-year">{{page.year}}</span>.
                 {% else %},<span class="journal-to-appear">to appear</span>.
                 {% endif %}
-            </reference>
+            </div>
     {% when "conference" %}
-        <reference class="paper-conference-ref">
+        <div class="paper-conference-ref">
             {% assign conference = site.data.conferences[page.conference] %}
             {% if conference.url %}
                 <a class="conference-name"
                      href="{{conference.url}}">{{conference.name}}</a>{% else %}
                 <span class="conference-name">{{conference.name}}</span>{% endif %}{% if page.conferenceprocname %}<span class="conference-procname">{{page.conferenceprocname}}</span>{% endif %}{% if page.pages %}, <span class="conference-pages">{{page.pages}}</span>{% endif %}{% if page.year %}, <span class="conference-year">{{page.year}}</span>{% endif %}.
-        </reference>
+        </div>
     {% when "preprint" %}
-        <reference class="paper-preprint-ref">
+        <div class="paper-preprint-ref">
             {% if page.arxiv %}
                 <span class="preprint-arxiv-id">{{page.arxiv}}</span>{% endif %}{% if page.year %}{% if page.arxiv %}, {% endif %}
                 <span class="preprint-arxiv-year">{{page.year}}</span>
             {% endif %}
-        </reference>
+        </div>
     {% endcase %}
     {% if page.arxiv or page.doi or page.fulltexturl %}
-        <fulltext class="paper-text">
+        <div class="paper-text">
             {% if page.arxiv %}
                 <a href="http://arxiv.org/abs/{{page.arxiv}}">arXiv</a>
             {% endif %}
@@ -57,12 +57,12 @@ layout: default
                 {% endif %}
                 <a href="{{page.fulltexturl}}">URL</a>
             {% endif %}
-        </fulltext>
+        </div>
     {% endif %}
   </header>
 
-  <abstract class="paper-abstract">
+  <div class="paper-abstract">
     {{ content }}
-  </abstract>
+  </div>
 
 </div>

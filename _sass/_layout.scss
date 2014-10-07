@@ -369,6 +369,9 @@ h1.paper-title {
     margin-bottom: 0.75 * $spacing-unit;
 }
 
+.paper-list-journal, .paper-list-conference, .paper-list-preprint {
+    display: inline;
+}
 .paper-list-paper {
     display: block;
     margin-top: 0.5 * $spacing-unit;
@@ -440,4 +443,69 @@ bio.short-bio {
     @include media-query($on-palm) {
         display: none;
     }
+}
+
+/**
+ * seminar talk announcements
+ */
+
+.seminar-blurb {
+    border-top: solid 2px $grey-color-light;
+    padding-top: 0.5 * $spacing-unit;
+    border-bottom: solid 2px $grey-color-light;
+    padding-bottom: 0.5 * $spacing-unit;
+    
+    p:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.seminar-talk-coords {
+    margin-top: 1.5 * $spacing-unit;
+    
+    .seminar-talk-place:before {
+        color: $grey-color;
+        content: "Where:";
+        padding-right: 20px;
+    }
+    
+    .seminar-talk-time:before {
+        color: $grey-color;
+        content: "When:";
+        padding-right: 20px;
+    }
+}
+
+.seminar-talk-data {
+    margin-top: 1.5 * $spacing-unit;
+    
+    .seminar-talk-speaker:before {
+        color: $grey-color;
+        content: "Speaker:";
+        padding-right: 20px;
+    }
+    
+    .seminar-talk-speaker-inst:before {
+        content: "(";
+    }
+    
+    .seminar-talk-speaker-inst:after {
+        content: ")";
+    }
+    
+    .seminar-talk-title:before {
+        color: $grey-color;
+        content: "Title:";
+        padding-right: 20px;
+    }
+}
+
+.seminar-talk-abstract {
+    margin-top: 1.5 * $spacing-unit;
+}
+
+.seminar-talk-abstract:before {
+    font-weight: bold;
+    content: "Abstract:";
+    color: $grey-color;
 }

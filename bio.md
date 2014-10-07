@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /bio/
+title: Research and academic profile
+shorttitle: Bio
 ---
 # Short bio
 

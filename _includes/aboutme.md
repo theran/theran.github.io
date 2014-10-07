@@ -5,9 +5,6 @@ program [Challenges in Large Geometric Structures and Big Data][largestructures]
 
 In Fall 2014, I am teaching a [computational geometry class][cg14].
 
-## Research interests
-{:class="bio-research-interests"}
-
 I like to work on problems that feature an interaction between geometry, combinatorics,
 and algorithmic considerations. I also like theoretical problems that arise out of
 concrete, applied scenarios.
@@ -18,7 +15,8 @@ My main projects right now center around:
 - Algebraic and combinatorial approaches to machine learning and data analysis
 
 For more detail, see the list of publications below, the 
-[short overview][bio] or my [full CV][cv].
+[short overview][bio] or my [full CV][cv]. To find me, 
+see my [contact information][contact].
 
 [aalto]: http://aalto.fi/
 [asci]: http://asci.aalto.fi/
@@ -29,3 +27,4 @@ For more detail, see the list of publications below, the
 [cg14]: https://noppa.aalto.fi/noppa/kurssi/t-79.7001/
 [cv]: /CV/
 [bio]: bio
+[contact]: /contact/
