@@ -404,7 +404,7 @@ h1.paper-title {
  */
 bio.short-bio {
     display: block;
-    clear: left;
+    clear: right;
 }
 
 /**
@@ -414,17 +414,17 @@ bio.short-bio {
     display: block;
     
     .picture {
-        float: left;
+        float: right;
         max-width: 25%;
         margin-bottom:  $spacing-unit;
     }
     
     .info {
         display: block;
-        padding-left: 35%;
+//        padding-left: 35%;
         line-height: 1.2;
         font-size: 20px;
-        padding-top: 40px;
+        padding-top: 90px;
     }
     
     .name {
