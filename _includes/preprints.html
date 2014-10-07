@@ -6,7 +6,7 @@
                 <a class="paper-list-title" href="{{paper.url}}">{{paper.title}}</a>
                 <div class="paper-list-reference">
                     <div class="paper-list-preprint">Preprint</div>{% if paper.year %}, <span class="paper-list-year">{{paper.year}}</span>{% else %}, <span class="paper-list-to-appear">to appear</div>{% endif %}.
-                </reference>
+                </div>
                 <div class="paper-list-authors">
                     <ul class="author-list">
                         {% for author in paper.authors %}
