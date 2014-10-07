@@ -509,3 +509,26 @@ bio.short-bio {
     content: "Abstract:";
     color: $grey-color;
 }
+
+/**
+ * seminar home page
+ */
+.seminar-home-talks-list {
+    border-top: solid 2px $grey-color-light;
+    padding-top: 0.5 * $spacing-unit;
+    margin-top: $spacing-unit;
+
+    tr {
+        line-height: 1.5;
+    }
+    
+    td:not(:first-child) {
+        padding-left: 20px;
+    }
+    
+    .seminar-talk-title {
+        @include media-query($on-palm) {
+            display: none;
+        }
+    }
+}

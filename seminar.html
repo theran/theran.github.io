@@ -5,3 +5,28 @@ title: Challenges in Large Geometric Structures and Big Data
 shorttitle: Seminar
 ---
 
+<h1 class="page-heading">Large Structures Seminar</h1>
+
+<div class="seminar-home-blurb">
+    <p>This seminar is part of the AScI Thematic Program "Challenges in
+        Large Geometric Structures and Big Data".  Below is a list
+        of past and upcoming talks.</p>
+</div>
+
+<div class="seminar-home-talks-list">
+    <table>
+        {% for talk in site.seminartalks %}
+            <tr>
+                <td class="seminar-talk-date">
+                    {{talk.talkdate}}
+                </td>
+                <td class="seminar-talk-speaker">
+                    <a href="{{talk.url}}">{{talk.speaker}}</a>
+                </td>
+                <td class="seminar-talk-title">
+                    {{talk.talktitle}}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
