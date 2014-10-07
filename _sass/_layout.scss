@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+//    this gray bar is kind of annoying
+//    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -403,4 +404,39 @@ h1.paper-title {
  */
 bio.short-bio {
     display: block;
+    clear: left;
+}
+
+/**
+ * Picture and navigation stuff
+ */
+.home-page-picture {
+    display: block;
+    
+    .picture {
+        float: left;
+        max-width: 25%;
+        margin-bottom:  $spacing-unit;
+    }
+    
+    .info {
+        display: block;
+        padding-left: 35%;
+        line-height: 1.2;
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    
+    .name {
+        font-weight: bold;
+    }
+    
+    .job, .workplace, .employer {
+        color: $grey-color-dark;
+        display: block;
+    }
+    
+    @include media-query($on-palm) {
+        display: none;
+    }
 }

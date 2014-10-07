@@ -3,15 +3,26 @@ layout: default
 ---
 
 <div class="home">
+    {% include picture.html %}
+    
+    {% include aboutme.html %}
 
-  <h1 class="page-heading">About me</h1>
-  {% include aboutme.html %}
-
-  <h1 class="page-heading">Research articles</h1>
-  {% include preprints.html %}
-  
+    <h1 class="page-heading">Research articles</h1>
+        <p>
+             My research articles in approximate 
+             reverse chronological order.
+             click on the titles to see abstracts and get the 
+             full text.  You can also see a 
+             <a href="/coauthors/">list of my coauthors</a>.  Jump to:
+             <a href="#journal-papers">journal papers</a>; 
+             <a href="#conference-papers">conference papers</a>;
+             <a href="#preprints">recent preprints</a>.
+         </p>
+    
   {% include journalpapers.html %}
   
   {% include conferencepapers.html %}
+  
+  {% include preprints.html %}
 
 </div>

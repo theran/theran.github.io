@@ -13,7 +13,7 @@ conferenceprocname: SoCG’14
 
 We study realization spaces of Delaunay triangulations and show that they can be
 arbitrarily complicated, and in particular disconnected. Our smallest example consists of
-two configurations of $$29$$ labeled points in $$\mathbb{R}^25$$ whose Delaunay
+two configurations of $$29$$ labeled points in $$\mathbb{R}^{25}$$ whose Delaunay
 triangulations are combinatorially equivalent but yet there is no continuous
 transformation that maps one to the other without changing the triangulation. In general,
 we prove that the realization space of a Delaunay triangulation in $$\mathbb{R}^2d$$ can
