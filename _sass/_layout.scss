@@ -424,11 +424,12 @@ bio.short-bio {
 //        padding-left: 35%;
         line-height: 1.2;
         font-size: 20px;
-        padding-top: 90px;
+//        padding-top: 90px;
     }
     
     .name {
-        font-weight: bold;
+//        font-weight: bold;
+        display: none;
     }
     
     .job, .workplace, .employer {
