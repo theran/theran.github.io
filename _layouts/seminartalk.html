@@ -43,6 +43,10 @@ layout: default
                     {% else %}
                         {{page.speaker}}
                     {% endif %}
+                    {% if page.speakerinst %}
+                        <span
+                            class="seminar-talk-speaker-inst">{{page.speakerinst}}</span>
+                    {% endif %}
                 </td>
             </tr>
             <tr>

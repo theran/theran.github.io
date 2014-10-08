@@ -503,4 +503,12 @@ h1.paper-title {
             display: none;
         }
     }
+    
+    .seminar-talk-speaker-inst:before {
+        content: "(";
+    }
+    
+    .seminar-talk-speaker-inst:after {
+        content: ")";
+    }
 }

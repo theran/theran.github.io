@@ -18,13 +18,20 @@ shorttitle: Seminar
         {% for talk in site.seminartalks %}
             <tr>
                 <td class="seminar-talk-date">
-                    {{talk.talkdate}}
+                    <a href="{{talk.url}}">{{talk.talkdate}}</a>
                 </td>
                 <td class="seminar-talk-speaker">
-                    <a href="{{talk.url}}">{{talk.speaker}}</a>
+                    {% if talk.speakerurl %}
+                        <a href="{{talk.speakerurl}}">{{talk.speaker}}</a>
+                    {% else %}
+                        {{talk.speaker}}
+                    {% endif %}
+                    {% if talk.speakershortinst %}
+                        <span class="seminar-talk-speaker-inst">{{talk.speakershortinst}}</span>
+                    {% endif %}
                 </td>
                 <td class="seminar-talk-title">
-                    {{talk.talktitle}}
+                    <a href="{{talk.url}}">{{talk.talktitle}}</a>
                 </td>
             </tr>
         {% endfor %}
