@@ -405,7 +405,7 @@ h1.paper-title {
 /**
  * Short bio
  */
-bio.short-bio {
+.short-bio {
     display: block;
     clear: right;
 }
@@ -463,26 +463,23 @@ bio.short-bio {
 .seminar-talk-coords {
     margin-top: 1.5 * $spacing-unit;
     
-    .seminar-talk-place:before {
+    td.seminar-talk-place:first-child {
         color: $grey-color;
-        content: "Where:";
-        padding-right: 20px;
+        width: 100px;
     }
     
-    .seminar-talk-time:before {
+    td.seminar-talk-time:first-child {
         color: $grey-color;
-        content: "When:";
-        padding-right: 20px;
+        width: 100px;
     }
 }
 
 .seminar-talk-data {
     margin-top: 1.5 * $spacing-unit;
     
-    .seminar-talk-speaker:before {
+    td.seminar-talk-speaker:first-child {
         color: $grey-color;
-        content: "Speaker:";
-        padding-right: 20px;
+        width: 100px;
     }
     
     .seminar-talk-speaker-inst:before {
@@ -493,10 +490,9 @@ bio.short-bio {
         content: ")";
     }
     
-    .seminar-talk-title:before {
+    .seminar-talk-title:first-child{
         color: $grey-color;
-        content: "Title:";
-        padding-right: 20px;
+        width: 100px;
     }
 }
 
