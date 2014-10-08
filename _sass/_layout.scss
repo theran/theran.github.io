@@ -247,24 +247,15 @@ h1.paper-title {
     font-size: 30px;
     margin-bottom: 1.5 * $spacing-unit;
 }
-.paper-authors {
-    display: block;
-}
 
-.paper-authors:before {
-    content: "Authors:";
+.paper-authors:first-child {
     color: $grey-color;
-    padding-right: 20px;
+    width: 100px;
 }
 
-.paper-journal-ref {
-    display: block;
-}
-
-.paper-journal-ref:before {
-    content: "Journal:";
+.paper-journal-ref:first-child {
     color: $grey-color;
-    padding-right: 20px;
+    width: 100px;
 }
 
 .journal-title {
@@ -287,14 +278,9 @@ h1.paper-title {
     content: ":";
 }
 
-.paper-conference-ref {
-    display: block;
-}
-
-.paper-conference-ref:before {
-    content: "Proc. of:";
+.paper-conference-ref:first-child {
     color: $grey-color;
-    padding-right: 20px;
+    width: 100px;
 }
 
 .conference-procname:before {
@@ -305,28 +291,18 @@ h1.paper-title {
     content: ")";
 }
 
-.paper-preprint-ref {
-    display: block;
-}
-
-.paper-preprint-ref:before {
-    content: "Preprint:";
+.paper-preprint-ref:first-child {
     color: $grey-color;
-    padding-right: 20px;
+    width: 100px;
 }
 
 .preprint-arxiv-id:before {
     content: "arXiv:";
 }
 
-.paper-text {
-    display: block;
-}
-
-.paper-text:before {
-    content: "Full text:";
+.paper-text:first-child {
     color: $grey-color;
-    padding-right: 20px;
+    width: 100px;
 }
 
 .paper-abstract {
