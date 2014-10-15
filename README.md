@@ -3,7 +3,7 @@
 ## About 
 
 This repo is the [Jekyll][jekyll] source to Louis Theran's 
-home page, which is hosted at <http://theran.github.io>.
+home page, which is hosted at <http://theran.lt>.
 
 At the moment, it's just a stub.  My "real" web presence
 is still at <http://math.fu-berlin.de/~theran/>.
