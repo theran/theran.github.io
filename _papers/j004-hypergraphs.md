@@ -7,7 +7,7 @@ journal: ejc
 authors:
     - ileana
     - louis
-title: Sparsity-certifying graph decompositions
+title: Sparse hypergraphs and pebble game algorithms
 year: 2009
 volume: 30
 issue: 8
