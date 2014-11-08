@@ -512,3 +512,355 @@ h1.paper-title {
         content: ")";
     }
 }
+
+/**
+ * CV
+ */
+
+
+.cv-body {
+    
+    line-height: 1.1;
+    
+    @mixin address-block {
+        line-height: 1.1;
+        padding-top: 60px;
+        
+    }
+    
+    @mixin list-block {
+        margin-top: .66 * $base-line-height * $base-font-size;
+    }
+    
+    @mixin tight-text {
+        line-height: 1.1;
+    }
+    
+    @mixin item-header {
+        margin-bottom: .33 * $base-line-height * $base-font-size;
+    }
+    
+    @mixin small-h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    .cv-main {
+        clear: right;
+    }
+    
+    .cv-header {
+        margin-bottom: 2 * $spacing-unit;
+    }
+    
+    .cv-header .address {
+        float: left;
+        clear: left;
+        @include address-block;
+    }
+    
+    .cv-header .contacts {
+        padding-left: 200px;
+        @include address-block;
+    }
+    
+    .cv-header .picture {
+        float: right;
+        max-width: 15%;
+    }
+    
+    h2 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .research-interests {
+        line-height: $base-line-height;
+    }
+    
+    .education .deg:not(:first-child) {
+        @include list-block;
+    }
+    
+    .education .deg {
+        .deg-date {
+            color: $grey-color;
+        }
+        
+        .deg-title {
+            font-weight: bold;
+        }
+        
+        .deg-note {
+            padding-left: 25px;
+            @include tight-text;
+        }
+        
+        .deg-note:first-child {
+            margin-top: .33 * $base-line-height * $base-font-size;
+        }
+    }
+    
+    .academic-positions {
+        .position:not(:first-child) {
+            @include list-block;
+        }
+        
+        .pos-yearplace {
+            @include item-header;
+        }
+        
+        .pos-year {
+            color: $grey-color;
+        }
+        
+        .pos-title { 
+            font-weight: bold;
+        }
+        
+        .pos-dept, .pos-note {
+            padding-left: 25px;
+        }
+        
+        .pos-dept {
+            @include item-header;
+        }
+        
+        .pos-note {
+            @include tight-text;
+        }
+    }
+
+    .industry-positions {
+        .position:not(:first-child) {
+            @include list-block;
+        }
+        
+        .pos-year {
+            color: $grey-color;
+        }
+        
+        .pos-title { 
+            font-weight: bold;
+        }
+    }
+    
+    .funding-wrapper {
+        .funding-item:not(:first-child) {
+            @include list-block;
+        }
+        
+        .funding-item {
+            .instrument-year {
+                @include item-header;
+                
+                .funding-year {
+                    color: $grey-color;
+                }
+                
+                .funding-title {
+                    font-style: italic;
+                }
+            }
+            
+            .funding-item-notes {
+                padding-left: 25px;
+            }
+        }
+    }
+    
+    .publications {
+        h2.page-heading {
+            @include small-h2;
+        }
+    }
+    
+    .teaching {
+        h2 {
+            @include small-h2;
+        }
+        
+        .courses-wrapper {
+            .course:not(:first-child) {
+                @include list-block;
+            }
+            
+            .course {
+                .course-term {
+                    color: $grey-color;
+                }
+                
+                .course-title {
+                    font-style: italic;
+                }
+                
+                .course-yearname {
+                    margin-bottom: .33 * $base-line-height * $base-font-size;
+                }
+                
+                .course-instcomment {
+                    @include tight-text;
+                    padding-left: 25px;
+                }
+            }
+        }
+        
+        .seminars-wrapper {
+            .seminar:not(:first-child) {
+                @include list-block;
+            }
+            
+            .seminar {
+                .seminar-term {
+                    color: $grey-color;
+                }
+                
+                .seminar-title {
+                    font-style: italic;
+                }
+                
+                .seminar-yearname {
+                    margin-bottom: .33 * $base-line-height * $base-font-size;
+                }
+                
+                .seminar-instcomment {
+                    @include tight-text;
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+    
+    .service {
+        h2 {
+            @include small-h2;
+        }
+        
+        .disscomm-wrapper {
+            .disscomm:not(:first-child) {
+                @include list-block;
+            }
+            
+            .disscomm {
+                .disscomm-yearname {
+                    margin-bottom: .33 * $base-line-height * $base-font-size;
+                }
+                .disscomm-year {
+                    color: $grey-color;
+                }
+            
+                .disscomm-title {
+                    @include tight-text;
+                    padding-left: 25px;
+                }
+            
+                .thesis-title {
+                    font-style: italic;
+                }
+            }
+        }
+        
+        .bachelortheses-wrapper {
+            .bachelorthesis:not(:first-child) {
+                @include list-block;
+            }
+            
+            .bachelorthesis {
+                .bt-yearname {
+                    margin-bottom: .33 * $base-line-height * $base-font-size;
+                }
+                .bt-year {
+                    color: $grey-color;
+                }
+            
+                .bt-titletopic, .bt-myrole {
+                    @include tight-text;
+                    padding-left: 25px;
+                }
+            
+                .bt-title {
+                    font-style: italic;
+                }
+            }
+        }
+        
+        .conforg-wrapper {
+            .conference:not(:first-child) {
+                @include list-block;
+            }
+            
+            .conference {
+                .conf-yearevent {
+                    margin-bottom: .33 * $base-line-height * $base-font-size;
+                }
+                .conf-year {
+                    color: $grey-color;
+                }
+                .conf-event {
+                    font-style: italic;
+                }
+
+                .conf-myrole {
+                    @include tight-text;
+                    padding-left: 25px;
+                }
+            }
+        }
+        
+        .deptservice-wrapper {
+            .service:not(:first-child) {
+                @include list-block;
+            }
+            
+            .service {
+                @include tight-text;
+                
+                .service-year {
+                    color: $grey-color;
+                }
+            }
+        }
+        
+        .refereeing-wrapper {
+            
+            h2 {
+                font-weight: bold;
+                color: $grey-color;
+                display: inline;
+                font-size: $base-font-size;
+            }
+            
+            h2:after {
+                content: ": ";
+            }
+            
+            .ref-journals {
+                @include tight-text;
+//                @include list-block;
+                
+                .ref-journal {
+                    font-style: italic;
+                }
+                
+                .ref-journal:not(:last-child):after {
+                    content: ", ";
+                }
+            }
+            
+            .ref-conferences {
+                @include tight-text;
+                @include list-block;
+                
+                .ref-conference {
+                    font-style: italic;
+                }
+                
+                .ref-journal:not(:last-child):after {
+                    content: ", ";
+                }
+            }
+        }
+    }
+}
