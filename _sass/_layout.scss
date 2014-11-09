@@ -489,18 +489,36 @@ h1.paper-title {
     border-top: solid 2px $grey-color-light;
     padding-top: 0.5 * $spacing-unit;
     margin-top: $spacing-unit;
-
+    
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
     tr {
-        line-height: 1.5;
+        line-height: 1.1;
     }
     
-    td:not(:first-child) {
-        padding-left: 20px;
+//    td:not(:first-child) {
+//       padding-left: 20px;
+//    }
+    
+    td {
+        padding-bottom:  $base-line-height * $base-font-size;
+    }
+    
+    .seminar-talk-date {
+        width: 15%;
+        
+        @include media-query($on-palm) {
+            width: 30%;
+        }
     }
     
     .seminar-talk-title {
+        width: 60%;
         @include media-query($on-palm) {
             display: none;
+            width: 0%;
         }
     }
     
@@ -510,6 +528,17 @@ h1.paper-title {
     
     .seminar-talk-speaker-inst:after {
         content: ")";
+    }
+    
+    .seminar-talk-speaker {
+        width: 25%;
+        @include media-query($on-palm) {
+            width: 70%;
+        }
+    }
+    
+    .seminar-talk-title {
+        padding-left: 20px;
     }
 }
 
