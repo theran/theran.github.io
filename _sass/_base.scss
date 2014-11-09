@@ -215,11 +215,16 @@ dt {
     float: left;
     clear: left;
     text-align: left;
-    width: 100px;
+    width: 150px;
     color: $grey-color;
 }
 
 dd {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 150px;
     padding: 0 0 0 2em;
+}
+
+dt, dd {
+    line-height: 1.1;
+    margin-bottom: .33 * $base-line-height * $base-font-size;
 }
