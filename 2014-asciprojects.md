@@ -91,6 +91,6 @@ and laser cutter.
 Some text here about how wonderful AScI and Helsinki are,
 plus how much money one gets.
 
-[dan]: http://your.page.here/
+[dan]: http://users.asci.aalto.fi/daniel/index.html
 [marc]: http://your.page.here/
 [lt]: http://theran.lt/
