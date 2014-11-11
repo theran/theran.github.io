@@ -4,16 +4,54 @@ permalink: /2014/asci-interns/
 title: Mechanics and metamaterials
 ---
 
-These four projects follow a theme and will be semi-jointly 
-supervised by [Daniel][dan], [Marcelo][marc], [Louis][lt]
+## Overview 
 
-## Design of mechanical meta-materials
+These four independent 
+projects all relate to the theme of meta-materials, which 
+will be explored from the perspectives of physics and math.  The idea
+is that the projects will mix theoretical investigation with 
+practical experimentation.
 
-### Field of study: Structural mechanics, Physics, Applied Mathematics
+The projects will be hosted at AScI and supervised semi-jointly by:
 
-### Contact person(s): _Marcelo_, Daniel, Louis
+* [Marcelo Dias][marc]
+* [Daniel Rayneau-Kirkhope][dan]
+* [Louis Theran][lt]
 
-### Professor: Olli Ikkala
+[dan]: http://users.asci.aalto.fi/daniel/index.html
+[marc]: http://your.page.here/
+[lt]: http://theran.lt/
+
+
+Departments involved are:
+
+* [Physics][phys]
+* [ICS][ics]
+
+[phys]: http://physics.aalto.fi
+[ics]: http://ics.aalto.fi
+
+With additional support from 
+
+* The AScI Thematic Program "Challenges in Large Geometric Structures and Big Data" (financial support)
+* Aalto Media Factory's [Fab Lab][fablab] (time on laser cutters, 3D printers, and CNC machines)
+
+[fablab]: http://mediafactory.aalto.fi/fablab/
+
+## About AScI Internships
+
+Some text here about how wonderful AScI and Helsinki are,
+plus how much money one gets.
+
+## Project descriptions 
+
+### Design of mechanical meta-materials
+
+__Field of study: Structural mechanics, Physics, Applied Mathematics__
+
+__Contact person(s): _Marcelo_, Daniel, Louis__
+
+__Professor: Olli Ikkala__
 
 Mechanical structures (including 2d and 3d lattices, polyhedral 
 surfaces, etc.) have recently been shown to display a wide variety of 
@@ -35,13 +73,13 @@ Students in physics or mechanical engineering are especially encouraged
 to apply.  Some experience with lab work or 3d printing will be helpful, 
 but is not required.
 
-## Physics and geometry of complex structures
+### Physics and geometry of complex structures
 
-### Field of study: Structural mechanics, Physics, (Applied) Mathematics
+__Field of study: Structural mechanics, Physics, (Applied) Mathematics__
 
-### Contact persons: _Daniel_, Marcelo, Louis
+__Contact persons: _Daniel_, Marcelo, Louis__
 
-### Professor: Mikko Alava 
+__Professor: Mikko Alava__ 
 
 The mechanics of soft materials allows structures to be designed that undergo large deformations. 
 Understanding these theoretically is challenging, because these deformations tend to exhibit 
@@ -56,16 +94,16 @@ equilibrium equations for the structure... instability analysis... perturbation 
 
 Students in physics or applied mathematics are especially encouraged to apply.  Some 
 experience with numerical simulations, and finite element methods will be 
-helpful but not required.  Some programming skill (e.g., Mathematica, MATLAB, Python, Java) 
-is necessary.
+helpful but not required.  Some programming skill (e.g., Mathematica, MATLAB, 
+Python, Java) is necessary.
 
-## Boundary effects in isostatic systems
+### Boundary effects in isostatic systems
 
-### Field of study: Math, Physics
+__Field of study: Math, Physics__
 
-### Contact persons: _Louis_, Daniel, Marcelo
+__Contact persons: _Louis_, Daniel, Marcelo__
 
-### Professor: Petteri Kaski
+__Professor: Petteri Kaski__
 
 Networks of stiff bars connected by rotational joints have recently 
 been shown to exhibit behaviors associated with soft matter and 
@@ -85,12 +123,34 @@ finite patches of large systems affect what can be seen.
 To get intuition, you will create models using 3d printing 
 and laser cutter.
 
+### Configuration space design for origami sheets and lattice-linkages
 
-## About AScI Internships
+__Field of study: Math, Physics, Computer Science__
 
-Some text here about how wonderful AScI and Helsinki are,
-plus how much money one gets.
+__Contact persons: _Louis_, Marcelo, Daniel__
 
-[dan]: http://users.asci.aalto.fi/daniel/index.html
-[marc]: http://your.page.here/
-[lt]: http://theran.lt/
+__Professor: Petteri Kaski__
+
+For finite linkages, Kempe's Universality Theorem states, roughly, that
+any algebraic curve can be traced out by a mechanical linkage.  Recently,
+linkages made by repeating small units have gotten a lot of attention 
+because they can be adapted to exhibit a wide variety of interesting 
+behaviors.
+
+In this project, we will look at these stiff systems from the algebraic 
+perspective, and try to understand how the topology of the unit cell or
+crease pattern can affect the gometric behavior.
+
+You will learn the mathematical and computational background for 
+explicitly computing configuration spaces of small examples and 
+how to express interesting physical properties algebraic-geometrically.
+After analyzing existing examples, you will try to derive a set of gadgets 
+that can be used to generate pre-specified motions.  Along they 
+way, you'll build models to test out new idea and get a feel for 
+the problem.
+
+Experience with computer algebra systems such as Macaulay 2 is 
+helpful, but not required.
+
+
+
