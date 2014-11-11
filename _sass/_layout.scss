@@ -893,3 +893,12 @@ h1.paper-title {
         }
     }
 }
+
+/**
+ * home page
+ */
+.home {
+    .home-research h1 {
+        margin-top: $spacing-unit;
+    }
+}

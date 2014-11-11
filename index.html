@@ -7,6 +7,8 @@ layout: default
     
     {% include aboutme.html %}
 
+    <div class="home-research"><!-- ugly hack -->
+
     <h1 class="page-heading">Research</h1>
         <p>
              My research papers by type in approximate 
@@ -18,11 +20,11 @@ layout: default
              <a href="#conference-papers">conference papers</a>;
              <a href="#preprints">recent preprints</a> (the newest stuff is here).
          </p>
-    
-  {% include journalpapers.html %}
-  
-  {% include conferencepapers.html %}
-  
-  {% include preprints.html %}
 
+      {% include journalpapers.html %}
+  
+      {% include conferencepapers.html %}
+  
+      {% include preprints.html %}
+    </div>
 </div>
