@@ -356,19 +356,19 @@ h1.paper-title {
 .paper-list-title {
     display: block;
 //    font-weight: bold;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .paper-list-reference {
     display: block;
     color: $grey-color-dark;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .paper-list-authors {
     display: block;
     color: $grey-color-dark;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 /**
@@ -495,7 +495,7 @@ h1.paper-title {
         width: 100%;
     }
     tr {
-        line-height: 1.1;
+        line-height: 1.2;
     }
     
 //    td:not(:first-child) {
@@ -549,10 +549,10 @@ h1.paper-title {
 
 .cv-body {
     
-    line-height: 1.1;
+    line-height: 1.2;
     
     @mixin address-block {
-        line-height: 1.1;
+        line-height: 1.2;
         padding-top: 60px;
         
     }
@@ -562,7 +562,7 @@ h1.paper-title {
     }
     
     @mixin tight-text {
-        line-height: 1.1;
+        line-height: 1.2;
     }
     
     @mixin item-header {
