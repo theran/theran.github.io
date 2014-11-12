@@ -40,8 +40,22 @@ With additional support from
 
 ## About AScI Internships
 
-Some text here about how wonderful AScI and Helsinki are,
-plus how much money one gets.
+AScI interns will work with mentors at the [Aalto Science Institute][asci] (AScI) 
+in Oteniemi.  
+
+__Dates:__ The internships run from June 1–August 31.
+
+__Salary:__ About €1600/month, depending on experience.
+
+__Additional perks:__ In addition, AScI interns receive
+
+* Up to €1500 in travel support
+* Finnish language and culture classes in June and July
+* The possibility to rent housing in Helsinki from the [Aalto Student's Union][ayy] (rent approx €210/mo, which is well below market rates)
+
+[ascicall]: http://asci.aalto.fi/en/internships/incoming_asci_interns/information_on_asci_internship/
+[asci]: http://asci.aalto.fi/
+[ayy]: http://ayy.fi/en/housing/
 
 ## Project descriptions 
 
