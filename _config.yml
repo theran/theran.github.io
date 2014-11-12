@@ -1,11 +1,11 @@
 # Site settings
-title: Louis Theran
-email: louis.theran@aalto.fi
+title: Your Name
+email: your.email@your.domain
 # description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://theran.lt" # the base hostname & protocol for your site
-github_username:  theran
-twitter_username: louistheran
+url: "http://yoursite" # the base hostname & protocol for your site
+github_username:  githubaccount
+twitter_username: twitteraccount
 
 # exclude from generating co-authors
 my_authortag: louis
@@ -13,8 +13,6 @@ my_authortag: louis
 # collections
 collections:
     papers:
-        output: true
-    seminartalks:
         output: true
 
 # Build settings

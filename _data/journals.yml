@@ -1,23 +1,9 @@
 advances:
     title: Advances in Mathematics
     url: http://www.journals.elsevier.com/advances-in-mathematics/
-jucs:
-    title: Journal of Universal Computer Science
-    url: http://www.jucs.org/
-jcmcc:
-    title: Journal of Combinatorial Mathematics and Combinatorial Computing
-gc:
-    title: Graphs and Combinatorics
-    url: http://www.springer.com/journal/373
 ejc:
     title: European Journal of Combinatorics
     url: http://www.sciencedirect.com/science/journal/01956698
 dcg:
     title: "Discrete & Computational Geometry"
     url: http://www.springer.com/journal/454
-amc:
-    title: Ars Mathematica Contemporanea
-    url: http://amc-journal.eu/index.php/amc
-gd:
-    title: Geometriae Dedicata
-    url: http://www.springer.com/mathematics/geometry/journal/10711
