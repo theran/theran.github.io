@@ -155,22 +155,22 @@ too helpful.)
 Next, you'll need to set up your new domain to point at GitHub.  For 
 rather opaque reasons, a lot of DNS providers will give quite poor
 performance.  To get around this, you'll need an account at 
-[Cloud Flare][cloudflare].  Go get one. Pick free and take 
+[CloudFlare][cloudflare].  Go get one. Pick free and take 
 the default options.
 
-Once you've got the Cloud Flare account, it will ask you to 
+Once you've got the CloudFlare account, it will ask you to 
 add a web site.  Type in `yourdomain.example`.  It will 
 import any DNS records you have for your zone.  Delete all 
 of these.
 
-Now in the cloudflare control panel add a `CNAME` record 
+Now in the CloudFlare control panel add a `CNAME` record 
 for `@` to point to `username.github.io`.  If you 
 want, also add a `CNAME` record for `www` to also
 point to `username.github.io`. For both of these records 
-click the orange cloud to make it "off Cloud Flare".
-(GitHub is giving you similar features already.)
+click the orange cloud to make it "off CloudFlare".  It will 
+turn gray. (GitHub is giving you similar features already.)
 
-Finally, look to the right side of the Cloud Flare panel 
+Finally, look to the right side of the CloudFlare panel 
 above.  It lists two name servers.  Go back to your 
 DNS registrar's control panel (e.g., at <http://iwantmyname.com>)
 and paste these into the "set name servers" field, 
@@ -179,3 +179,5 @@ deleting any other name servers.
 Wait until everything updates at DNS World HQ, and then 
 your new URL <http://yourdomain.example/> will
 point to your new site.
+
+[cloudflare]: https://www.cloudflare.com
