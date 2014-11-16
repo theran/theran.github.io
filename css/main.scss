@@ -6,10 +6,15 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+
+//$base-font-family:  Helvetica, Arial, sans-serif;
+//$base-font-size:   16px;
+
+$base-font-family:  'Atlas Grotesk', Helvetica, serif;
 $base-font-size:   16px;
+
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
@@ -45,5 +50,6 @@ $bullet-inline-scale: 75%;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "fonts"
 ;

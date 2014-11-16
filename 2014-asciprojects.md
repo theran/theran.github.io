@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /2014/asci-interns/
-title: Relating geometry and mechanical function 
+title: Mechanical function from geometry and topology
 ---
 
 ## Overview 

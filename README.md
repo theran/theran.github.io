@@ -8,10 +8,23 @@ home page, which is hosted at <http://theran.lt>.
 ## License
 
 The code and layouts are derived from Jekyll, and inherit that
-license.  All the site contents is copyright Louis Theran and 
+license.  There is a [template branch][lttemp] that 
+you should fork if you want to make a similar 
+site.  There are some [directions][quickstart] for how to 
+do that.
+
+All the actual site content is copyright Louis Theran and 
 may not be used except at the site <http://theran.lt/>.
 
+The stylesheet here uses the font [Atlas Grotesk][atlas].  This
+is licensed only for <http://theran.lt/>.  You need to buy your own 
+license if you want to use it.  The [template version][lttemp] of this 
+site has a stylesheet without the fonts.
+
 [jekyll]: http://jekyllrb.com/
+[atlas]: https://commercialtype.com/typefaces/atlas/grotesk
+[lttemp]: https://github.com/theran/theran.github.io/tree/template
+[quickstart]: http://theran.lt/2014/11/12/about-this-site.html
 
 ## Documentation
 
