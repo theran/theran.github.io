@@ -121,7 +121,7 @@ combine this emerging algorithmic theme with that of GPGPU computing
 from high-performance computing.
 
 You will learn how to exploit clusters of nodes with  GPUs 
-using technologies such as CUDA and CLANG.  Along the way, you will
+using technologies such as CUDA and OpenCL.  Along the way, you will
 become profficient with the scaffold technologies required to 
 deploy on a modern scientific cluster.
 
