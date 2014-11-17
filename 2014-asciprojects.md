@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /2014/asci-interns/
+permalink: /2015/asci-interns/
 title: Mechanical function from geometry and topology
 ---
 
@@ -78,14 +78,16 @@ __Additional perks:__ In addition, AScI interns receive
 * The possibility to rent housing  from the [Aalto Student's Union][ayy] at below-market rates
 
 EU or Finnish residency is _not required_ to take up the internship.  (Citizens of 
-[Annex II countries][annexii] do not need to apply in advance for an entry visa of any type. 
-[Aalto Human Resources][hr] will give specific instructions to selected students.)
+[Annex II countries][annexii] do _[not][visafree]_ need to apply in advance 
+for an entry visa of any type. [Aalto Human Resources][hr] will give specific 
+instructions to selected students.)
 
 [ascicall]: http://asci.aalto.fi/en/internships/incoming_asci_interns/information_on_asci_internship/
 [asci]: http://asci.aalto.fi/
 [ayy]: http://ayy.fi/en/housing/
 [annexii]: https://en.wikipedia.org/wiki/Visa_policy_of_the_Schengen_Area#Visa_exemptions
 [hr]: http://sci.aalto.fi/en/contact/service_units/hr-palvelut/
+[visafree]: http://www.formin.fi/public/default.aspx?nodeid=15719&contentlan=2&culture=en-US
 
 ## Project descriptions 
 
