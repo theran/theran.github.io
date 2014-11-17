@@ -4,7 +4,13 @@ permalink: /2014/asci-interns/
 title: Mechanical function from geometry and topology
 ---
 
-## Call for applications for Aalto Science Institute Internships
+## Call for applications for 2015 Aalto Science Institute (AScI) Internships
+
+The AScI internship program offers undergraduate students (BSc level) the opportunity to participate in topical research 
+at [Aalto University][aalto] and to establish their international academic network.  Students who are not yet connected with Aalto University are especially encouraged to apply.  For more information on the program, see the [official web page][asciinterns]
+
+[aalto]: http://aalto.fi/
+[asciinterns]: http://asci.aalto.fi/en/internships/incoming_asci_interns/
 
 You can apply using the online __[Application Form][apply]__
 
