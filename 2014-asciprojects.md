@@ -14,15 +14,15 @@ at [Aalto University][aalto] and to establish their international academic netwo
 
 You can apply using the online __[Application Form][apply]__
 
-[apply]: http://theran.lt/2014/asci-interns/
+[apply]: https://eage.aalto.fi/?ff/HR_ASCI_2015
 
 __Key dates:__
 
 Applications open
-: 1.12.2014
+: 05.12.2014 00:01:00 EET
 
 Applications close
-: 31.1.2015
+: 02.02.2015 23:59:00 EET
 
 Decisions
 : 15.3.2015
@@ -67,19 +67,25 @@ With additional support from
 AScI interns will work with mentors at the [Aalto Science Institute][asci] (AScI) 
 in Otaniemi.  
 
-__Dates:__ The internships run from June 1–August 31.
+__Dates:__ The internships run from June 1–August 31 (can be flexible)
 
-__Salary:__ About €1600/month, depending on experience.
+__Salary:__ About €1600/month, depending on experience (e.g., credits earned).
 
 __Additional perks:__ In addition, AScI interns receive
 
-* Up to €1500 in travel support
+* Reimbursement for an economy class round-trip ticket to the country where they study
 * Finnish language and culture classes in June and July
-* The possibility to rent housing in Helsinki from the [Aalto Student's Union][ayy] (rent approx. €210/mo, which is well below market rates)
+* The possibility to rent housing  from the [Aalto Student's Union][ayy] at below-market rates
+
+EU or Finnish residency is _not required_ to take up the internship.  (Citizens of 
+[Annex II countries][annexii] do not need to apply in advance for an entry visa of any type. 
+[Aalto Human Resources][hr] will give specific instructions to selected students.)
 
 [ascicall]: http://asci.aalto.fi/en/internships/incoming_asci_interns/information_on_asci_internship/
 [asci]: http://asci.aalto.fi/
 [ayy]: http://ayy.fi/en/housing/
+[annexii]: https://en.wikipedia.org/wiki/Visa_policy_of_the_Schengen_Area#Visa_exemptions
+[hr]: http://sci.aalto.fi/en/contact/service_units/hr-palvelut/
 
 ## Project descriptions 
 
