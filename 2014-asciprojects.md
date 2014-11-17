@@ -6,7 +6,20 @@ title: Mechanical function from geometry and topology
 
 ## Call for applications for Aalto Science Institute Internships
 
-IMPORTANT DEADLINES AND LINKS
+You can apply using the online __[Application Form][apply]__
+
+[apply]: http://theran.lt/2014/asci-interns/
+
+__Key dates:__
+
+Applications open
+: 1.12.2014
+
+Applications close
+: 31.1.2015
+
+Decisions
+: 15.3.2015
 
 ## Overview 
 
@@ -16,7 +29,7 @@ will be explored from the perspectives of physics and math.  The idea
 is that the projects will mix theoretical investigation with 
 practical experimentation.
 
-The projects will be hosted at AScI and supervised semi-jointly by:
+The projects will be hosted at [AScI][asci] and supervised jointly by:
 
 * [Marcelo Dias][marc]
 * [Daniel Rayneau-Kirkhope][dan]
@@ -25,12 +38,13 @@ The projects will be hosted at AScI and supervised semi-jointly by:
 [dan]: http://users.asci.aalto.fi/daniel/index.html
 [marc]: http://your.page.here/
 [lt]: http://theran.lt/
+[asci]: http://asci.aalto.fi/
 
 
 Departments involved are:
 
+* [Information and Computer Science][ics]
 * [Physics][phys]
-* [ICS][ics]
 
 [phys]: http://physics.aalto.fi
 [ics]: http://ics.aalto.fi
@@ -45,7 +59,7 @@ With additional support from
 ## About AScI Internships
 
 AScI interns will work with mentors at the [Aalto Science Institute][asci] (AScI) 
-in Oteniemi.  
+in Otaniemi.  
 
 __Dates:__ The internships run from June 1–August 31.
 
@@ -70,6 +84,8 @@ __Field of study: Structural mechanics, Physics, Applied Mathematics__
 __Contact person(s): _Marcelo_, Daniel, Louis__
 
 __Professor: Olli Ikkala__
+
+__[Apply Now][apply]__
 
 Mechanical structures (including 2-d and 3-d lattices, polyhedral 
 surfaces, etc.) have recently been shown to display a wide variety of 
@@ -99,6 +115,8 @@ __Contact persons: _Daniel_, Marcelo, Louis__
 
 __Professor: Mikko Alava__ 
 
+__[Apply Now][apply]__
+
 The mechanics of soft materials allows structures to be designed that undergo large elastic deformations. 
 Understanding these theoretically is challenging, because these deformations tend to exhibit 
 geometric non-linearity, even for structures designed from simple, repeating motifs.
@@ -123,6 +141,8 @@ __Field of study: Math, Physics__
 __Contact persons: _Louis_, Daniel, Marcelo__
 
 __Professor: Petteri Kaski__
+
+__[Apply Now][apply]__
 
 Networks of stiff bars connected by rotational joints have recently 
 been shown to exhibit behaviors associated with soft matter and 
@@ -149,6 +169,8 @@ __Field of study: Math, Physics, Computer Science__
 __Contact persons: _Louis_, Marcelo, Daniel__
 
 __Professor: Petteri Kaski__
+
+__[Apply Now][apply]__
 
 For finite linkages, Kempe's Universality Theorem states, roughly, that
 any algebraic curve can be traced out by a mechanical linkage.  Recently,

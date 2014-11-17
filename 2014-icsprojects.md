@@ -63,7 +63,9 @@ __Contact person(s): Louis, Petteri__
 
 __Professor: Petteri Kaski__
 
-### 
+### Motif search with GPGPU
+
+
 
 
 
