@@ -95,7 +95,7 @@ open up a terminal and do
 
 ~~~~~
 $ cd REPO
-$ git pull https://github.com/theran/theran.github.io.git --branch template --single-branch
+$ git pull https://github.com/theran/theran.github.io.git template 
 ~~~~~
 
 Keep this terminal open and in the same directory.
