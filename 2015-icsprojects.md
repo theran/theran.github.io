@@ -82,7 +82,7 @@ instructions to selected students.)
 
 ## Project descriptions 
 
-### Combinatorial data analysis
+### Flows and circulations in large-scale data analysis
 
 __Field of study: Computer science, Mathematics, Statistics__
 
