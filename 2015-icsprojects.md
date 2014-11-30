@@ -103,7 +103,7 @@ you will gain intuition on the problem by performing descriptive data
 analysis.
 
 Students with a strong background in mathematics or theoretical computer science
-are especially encouraged to apply. Programming skills are an asset.
+are especially encouraged to apply. Programming skills are a necessity.
 
 ### Motif search with massively parallel computing
 
@@ -119,8 +119,11 @@ on substructures of the input.  In this project, we will
 combine this emerging algorithmic theme with that of massively
 parallel computing technologies such as GPGPU and MIC from 
 high-performance computing. At Aalto we have access to substantial
-computing resources both within the School of Science and through
-CSC, the Finnish IT Center for Science. 
+computing resources both within the [School of Science][science-it] 
+and through [CSC, the Finnish IT Center for Science][csc]. 
+
+[science-it]: http://science-it.aalto.fi/resources/
+[csc]: https://research.csc.fi/guides
 
 You will learn how to exploit clusters of nodes with GPUs 
 using technologies such as CUDA and OpenCL.  Along the way, you will
