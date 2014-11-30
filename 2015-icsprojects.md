@@ -126,7 +126,7 @@ and through [CSC, the Finnish IT Center for Science][csc].
 [csc]: https://research.csc.fi/guides
 
 You will learn how to exploit clusters of compute nodes with co-processors such as 
-GPUsand use technologies such as CUDA and OpenCL. Along the way, you will
+GPUs and use technologies such as CUDA and OpenCL. Along the way, you will
 become profficient with the scaffold technologies required to 
 deploy on a modern scientific cluster.
 
