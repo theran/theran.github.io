@@ -6,6 +6,9 @@ jucs:
     url: http://www.jucs.org/
 jcmcc:
     title: Journal of Combinatorial Mathematics and Combinatorial Computing
+jmlr:
+    title: Journal of Machine Learning Research
+    url: http://jmlr.org/
 gc:
     title: Graphs and Combinatorics
     url: http://www.springer.com/journal/373

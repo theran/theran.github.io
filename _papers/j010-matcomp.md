@@ -1,14 +1,13 @@
 ---
 layout: paper
-type: preprint
+type: journal
+journal: jmlr
 arxiv: 1211.4116
 authors:
     - franz
     - louis
     - ryota
-    - uno
 title: The algebraic combinatorial approach for Low-Rank Matrix Completion
-year: 2012
 ---
 
 We present a novel algebraic combinatorial view on low-rank matrix completion based on
