@@ -21,11 +21,9 @@ threema
 : KRUU6RSB
 
 ## Visiting
-AScI
-: [TUAS][tuas] 3167
 
 ICS
-: [T][t] B250
+: [T][t] B354
 
 ## Mailing Address
 Louis Theran \\
