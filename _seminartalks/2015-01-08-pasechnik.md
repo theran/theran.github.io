@@ -5,7 +5,7 @@ speakerinst:
 speakershortinst: 
 speakerurl: 
 talktitle:  "Rational moment generating functions and polyhedra in R^d"
-talkdate: 4.1.2015
+talkdate: 8.1.2015
 talktime: 14.15 (sharp!)
 talkplace: AScI
 title: "Large Structures Seminar - Dima Pasechnik"
