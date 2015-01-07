@@ -23,7 +23,7 @@ The denominator of $$F_\mu(u)$$ is the product of linear functions of the
 form $$1-\langle u,v\rangle$$, with $$v$$ belonging to certain finite multiset $$V(P)$$.
 $$F_\mu(u)$$ is closely related to a more well-known Laplace transform
 $$L_\mu(u)$$ of a related “conified” measure arising in the theory of
-hyperplane arrangements.
+hyperplane arrangements. 
 
 There are interesting applications of $$L_\mu$$ to compact (not
 necessarily convex) polyhedra $$P$$. Let $$I(P)$$ be the indicator function of
