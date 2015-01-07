@@ -3,8 +3,6 @@ and Computer Science][ics] at [Aalto University][aalto]. I'm also the PI of the 
 program [Challenges in Large Geometric Structures and Big Data][largestructures] at
 [AScI][asci]. I organize an associated [seminar][seminar].
 
-In Fall 2014, I am teaching a [computational geometry class][cg14].
-
 I like to work on problems that feature an interaction between geometry, combinatorics,
 and algorithmic considerations. I also like theoretical problems that arise out of
 concrete, applied scenarios.
