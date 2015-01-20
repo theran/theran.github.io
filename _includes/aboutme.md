@@ -1,7 +1,9 @@
 I am an [Aalto Science Fellow][ascifellow] and a member of the Department of [Information
 and Computer Science][ics] at [Aalto University][aalto]. I'm also the PI of the thematic
 program [Challenges in Large Geometric Structures and Big Data][largestructures] at
-[AScI][asci]. I organize an associated [seminar][seminar].
+[AScI][asci]. I organize an associated [seminar][seminar].  I have  
+[summer internships][asciinterns] available at AScI and also in 
+the [computer science department][icsinterns].
 
 I like to work on problems that feature an interaction between geometry, combinatorics,
 and algorithmic considerations. I also like theoretical problems that arise out of
@@ -26,3 +28,5 @@ see my [contact information][contact].
 [cv]: /CV/
 [bio]: bio
 [contact]: /contact/
+[asciinterns]: /2015/asci-interns/
+[icsinterns]: /2015/ics-interns/
