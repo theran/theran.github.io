@@ -28,7 +28,7 @@ ICS
 ## Mailing Address
 Louis Theran \\
 Aalto Science Institute \\
-PO Box 15000 \\
+PO Box 15500 \\
 00076 Aalto \\
 FINLAND
 {:class="contact-info-mailing-address"}
