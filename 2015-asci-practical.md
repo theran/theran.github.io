@@ -101,6 +101,10 @@ can't increase it. Past interns have paid between 0-5% on the amount over
 [into]: http://intofinland.fi/
 [prog]: http://vero.fi/en-US/Precise_information/International_tax_situations/Taxation_of_the_earned_income_of_nonresi(30756)
 
+_Bring your tax card to HR:_ Bring your tax card and signed work contract to 
+Noora Koskivaara. This will allow you to start being paid and activate you 
+in the HR system.
+
 _Open your Aalto IT account:_ TBD
 
 
