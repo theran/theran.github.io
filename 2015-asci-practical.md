@@ -36,9 +36,9 @@ AYY Housing
 The rest of this document is a step-by-step guide, followed by 
 some miscelaneous information.
 
-[minna]: minna.lind@aalto.fi
-[noora]: noora.koskivaara@aalto.fi
-[jaako]: jaakko.kolhi@aalto.fi
+[minna]: mailto:minna.lind@aalto.fi
+[noora]: mailto:noora.koskivaara@aalto.fi
+[jaako]: mailto:jaakko.kolhi@aalto.fi
 
 ## The offer letter and work contract
 
@@ -151,12 +151,13 @@ need an appointment. You'll need to bring:
 
 * Your passport or European ID card
 * Your work contract
+* Your address in Finland
 * A confirmation of your tax status at home (e.g., a pay stub or tax return)
 * A confirmation that you have health insurance and social insurance in your home country
 
 Ask for a "progressive tax card" (there are [details on VERO's site][prog]). This can result in a much lower rate and 
 can't increase it. Past interns have paid between 0-5% on the amount over
-the tax-exempt amount of 500€ or so.
+the tax-exempt amount of 500€ or so. 
 
 [vero]: http://vero.fi/
 [into]: http://intofinland.fi/
