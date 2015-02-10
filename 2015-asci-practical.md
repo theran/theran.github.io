@@ -141,7 +141,9 @@ permanent resident or study.
 Once you arrive, you will need to get things set up.  Do all of these 
 tasks right away.
 
-_Get a tax card:_ In order to be paid, you will need to get a 
+_Get a tax card:_ 
+
+In order to be paid, you will need to get a 
 tax card from the [Finnish tax authority][vero].  The office 
 you need to go to is [Into Finland][into], since it can 
 issue you an ID number and tax card at the same time. You don't 
@@ -160,10 +162,14 @@ the tax-exempt amount of 500€ or so.
 [into]: http://intofinland.fi/
 [prog]: http://vero.fi/en-US/Precise_information/International_tax_situations/Taxation_of_the_earned_income_of_nonresi(30756)
 
-_Bring your tax card to HR:_ Bring your tax card and signed work contract to 
+_Bring your tax card to HR:_ 
+
+Bring your tax card and signed work contract to 
 Noora Koskivaara. This will allow you to start being paid and activate you 
 in the HR system.
 
-_Open your Aalto IT account:_ TBD
+_Open your Aalto IT account:_ 
+
+TBD
 
 
