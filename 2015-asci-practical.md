@@ -134,7 +134,7 @@ area without one (the so-called [Annex II][anexii] countries). Otherwise, you wi
 any [Finnish consulate][cons] in a country where you are a 
 permanent resident or study.
 
-[anexii]: [http://www.formin.fi/public/default.aspx?nodeid=15719&contentlan=2&culture=en-US]
+[anexii]: http://www.formin.fi/public/default.aspx?nodeid=15719&contentlan=2&culture=en-US
 [cons]: http://www.formin.fi/public/default.aspx?nodeid=15719&contentlan=2&culture=en-US
 
 ## After you arrive
