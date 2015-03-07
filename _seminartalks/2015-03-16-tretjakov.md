@@ -6,8 +6,8 @@ speakershortinst: Tartu
 speakerurl: http://kt.era.ee/
 talktitle:  Landmark-based shortest path estimation in very large graphs
 talkdate: 16.03.2015
-talktime: TBA
-talkplace: TUAS 2534-2535
+talktime: 12.15
+talkplace: TUAS 3161 (AScI lounge)
 title: "Large Structures Seminar - Konstantin Tretjakov"
 dinnerplace: 
 dinnertime: 
