@@ -599,6 +599,13 @@ h1.paper-title {
         max-width: 15%;
     }
     
+    .cv-footer {
+        margin-top: 2 * $spacing-unit;
+        color: $grey-color;
+        font-size: 0.75 * $base-font-size;
+        text-align: center;
+    }
+    
     h2 {
         font-size: 25px;
         margin-top: 20px;
