@@ -6,7 +6,7 @@ speakershortinst: Aalto
 speakerurl: http://users.asci.aalto.fi/erlandsson/
 talktitle:  Counting self-intersecting multi curves
 talkdate: 13.04.2015
-talktime: 10.15
+talktime: 11.15
 talkplace: TBD
 title: "Large Structures Seminar - Viveka Erlandsson"
 dinnerplace: 
