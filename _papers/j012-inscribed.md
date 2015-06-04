@@ -1,13 +1,13 @@
 ---
 layout: paper
-type: preprint
+type: journal
+journal: dcg
 arxiv: 1406.7831
 authors:
     - karim
     - arnau
     - louis
 title: Universality theorems for inscribed polytopes and Delaunay triangulations
-year: 2014
 ---
 
 We prove that every primary basic semialgebraic set is homotopy equivalent to the set of
