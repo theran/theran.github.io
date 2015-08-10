@@ -40,6 +40,9 @@ justin:
 cris:
     name: Cristopher Moore
     url: http://tuvalu.santafe.edu/~moore/
+tony:
+    name: Anthony Nixon
+    url: http://www.lancaster.ac.uk/maths/about-us/people/anthony-nixon
 arnau:
     name: Arnau Padrol
     url: http://page.mi.fu-berlin.de/arnaupadrol/
@@ -49,6 +52,9 @@ igor:
 zvi:
     name: Zvi Rosen
     url: http://math.berkeley.edu/~zhrosen/
+elissa:
+    name: Elissa Ross
+    url: http://elissaross.ca/
 jessica:
     name: Jessica Sidman
     url: http://www.mtholyoke.edu/~jsidman/
@@ -57,12 +63,18 @@ stark:
 ileana:
     name: Ileana Streinu
     url: http://cs.smith.edu/~streinu/
+brigitte:
+    name: Brigitte Servatius
+    url: http://users.wpi.edu/ ̃bservat
 louis:
     name: Louis Theran
     url: http://theran.github.io/
 ryota:
     name: Ryota Tomioka
     url: http://ttic.uchicago.edu/~ryotat/
+mike:
+    name: Michael Thorpe
+    url: http://thorpe2.la.asu.edu/thorpe
 uno:
     name: Takeaki Uno
     url: http://research.nii.ac.jp/~uno/
