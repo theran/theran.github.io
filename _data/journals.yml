@@ -24,3 +24,6 @@ amc:
 gd:
     title: Geometriae Dedicata
     url: http://www.springer.com/mathematics/geometry/journal/10711
+pre:
+    title: Physical Review E
+    url: http://journals.aps.org/pre/
