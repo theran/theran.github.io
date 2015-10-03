@@ -8,6 +8,8 @@ authors:
     - arnau
     - louis
 title: Universality theorems for inscribed polytopes and Delaunay triangulations
+year: 2015
+doi: 10.1007/s00454-015-9714-x
 ---
 
 We prove that every primary basic semialgebraic set is homotopy equivalent to the set of
