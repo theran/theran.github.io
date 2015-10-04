@@ -8,6 +8,8 @@ authors:
     - louis
     - ryota
 title: The algebraic combinatorial approach for Low-Rank Matrix Completion
+year: 2015
+fulltexturl: http://jmlr.org/papers/v16/kiraly15a.html
 ---
 
 We present a novel algebraic combinatorial view on low-rank matrix completion based on
