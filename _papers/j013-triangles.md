@@ -3,6 +3,11 @@ layout: paper
 type: journal
 journal: pre
 arxiv: 1508.00666
+doi: 10.1103/PhysRevE.92.053306
+volume: 92
+issue: 5
+pages: "053306"
+year: 2015
 authors:
     - louis
     - tony
