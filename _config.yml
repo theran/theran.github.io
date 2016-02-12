@@ -19,3 +19,4 @@ collections:
 
 # Build settings
 markdown: kramdown
+future: true
