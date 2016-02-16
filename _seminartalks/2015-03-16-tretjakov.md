@@ -8,6 +8,7 @@ talktitle:  Landmark-based shortest path estimation in very large graphs
 talkdate: 16.03.2015
 talktime: 11.00 (sharp)
 talkplace: TUAS 3161 (AScI lounge)
+talkterm: spring2015
 title: "Large Structures Seminar - Konstantin Tretjakov"
 dinnerplace: 
 dinnertime: 

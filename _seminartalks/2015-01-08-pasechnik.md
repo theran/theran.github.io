@@ -5,9 +5,10 @@ speakerinst: University of Oxford
 speakershortinst: Oxford
 speakerurl: http://www.cs.ox.ac.uk/people/dmitrii.pasechnik/
 talktitle:  "Rational moment generating functions and polyhedra in R^d"
-talkdate: 8.1.2015
+talkdate: 08.1.2015
 talktime: 14.15 (sharp!)
-talkplace: AScI
+talkterm: spring2015
+talkplace: AScI Lounge (TUAS 3161)
 title: "Large Structures Seminar - Dima Pasechnik"
 ---
 

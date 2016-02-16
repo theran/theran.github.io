@@ -10,12 +10,16 @@ shorttitle: Seminar
 <div class="seminar-home-blurb">
     <p>This seminar is part of the AScI Thematic Program "Challenges in
         Large Geometric Structures and Big Data".  Below is a list
-        of past and upcoming talks.</p>
+        of past and upcoming talks for the current term.  A list of 
+        all talks, by term is 
+        <a href="/largestructures-seminar-historical/">here</a>.
+    </p>
 </div>
 
 <div class="seminar-home-talks-list">
     <table>
-        {% for talk in site.seminartalks %}
+        {% assign talks = site.seminartalks | where: "talkterm", site.seminar_current_term %}
+        {% for talk in talks %}
             <tr>
                 <td class="seminar-talk-date">
                     <a href="{{talk.url}}">{{talk.talkdate}}</a>

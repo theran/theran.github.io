@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /largestructures-seminar-historical/
+title: Challenges in Large Geometric Structures and Big Data
+---
+
+<h1 class="page-heading">Large Structures Seminar - Past Terms</h1>
+
+<div class="seminar-home-blurb">
+    <p>This seminar is part of the AScI Thematic Program "Challenges in
+        Large Geometric Structures and Big Data".  This page lists talks from 
+        previous terms.  The schedule for the current term
+        is <a href="/largestructures-seminar/">here</a>.
+    </p>
+</div>
+
+{% for term in site.data.seminarterms reversed %}
+    {% unless term.tag == site.seminar_current_term %}
+        {% assign talks = site.seminartalks | where: "talkterm", term.tag %}
+        <h2 id="{{term.tag}}">{{term.name}}</h2>
+        <div class="seminar-home-talks-list">
+            <table>
+                {% for talk in talks %}
+                    <tr>
+                        <td class="seminar-talk-date">
+                            <a href="{{talk.url}}">{{talk.talkdate}}</a>
+                        </td>
+                        <td class="seminar-talk-speaker">
+                            {% if talk.speakerurl %}
+                                <a href="{{talk.speakerurl}}">{{talk.speaker}}</a>
+                            {% else %}
+                                {{talk.speaker}}
+                            {% endif %}
+                            {% if talk.speakershortinst %}
+                                <span class="seminar-talk-speaker-inst">{{talk.speakershortinst}}</span>
+                            {% endif %}
+                        </td>
+                        <td class="seminar-talk-title">
+                            <a href="{{talk.url}}">{{talk.talktitle}}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endunless %}
+{% endfor %}

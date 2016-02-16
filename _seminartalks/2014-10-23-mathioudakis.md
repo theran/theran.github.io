@@ -7,6 +7,7 @@ speakerurl: http://www.mmathioudakis.com/
 talktitle: "Bump hunting in the dark - Local discrepancy maximization on graphs"
 talkdate: 23.10.2014
 talktime: 14.15 (sharp!)
+talkterm: fall2014
 talkplace: TUAS 5
 dinnerplace: Bar № 9
 dinnertime: "19.00"

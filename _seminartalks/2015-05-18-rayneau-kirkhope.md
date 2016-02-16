@@ -8,6 +8,7 @@ talktitle: Structural hierarchy as a means to efficient, robust materials
 talkdate: 18.05.2015
 talktime: 11.00 (sharp)
 talkplace: AScI lounge (TUAS 3161)
+talkterm: summer2015
 title: "Large Structures Seminar - Daniel Rayneau-Kirkhope"
 dinnerplace: 
 dinnertime: 

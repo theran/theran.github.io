@@ -10,6 +10,9 @@ github_username:  theran
 # exclude from generating co-authors
 my_authortag: louis
 
+# current seminar term
+seminar_current_term: spring2016
+
 # collections
 collections:
     papers:

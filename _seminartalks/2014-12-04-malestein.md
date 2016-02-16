@@ -5,7 +5,8 @@ speakerinst: Universität Bonn
 speakershortinst: Bonn
 speakerurl: http://www.math.uni-bonn.de/people/justinm/
 talktitle:  Ultrarigidity of periodic frameworks
-talkdate: 4.12.2014
+talkdate: 04.12.2014
+talkterm: fall2014
 talktime: 14.15 (sharp!)
 talkplace: TUAS 5
 title: "Large Structures Seminar - Justin Malestein"
