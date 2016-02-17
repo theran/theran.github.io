@@ -2,42 +2,13 @@
 layout: default
 permalink: /largestructures-seminar/
 title: Challenges in Large Geometric Structures and Big Data
-shorttitle: Seminar
 ---
 
 <h1 class="page-heading">Large Structures Seminar</h1>
 
 <div class="seminar-home-blurb">
-    <p>This seminar is part of the AScI Thematic Program "Challenges in
-        Large Geometric Structures and Big Data".  Below is a list
-        of past and upcoming talks for the current term.  A list of 
-        all talks, by term is 
-        <a href="/largestructures-seminar-historical/">here</a>.
+    <p>The home page of the AScI Large Structures Seminar has 
+        <a href="https://aaltoscienceinst.github.io/lsbdseminar/">moved</a>, 
+        to an independent home on the web.
     </p>
-</div>
-
-<div class="seminar-home-talks-list">
-    <table>
-        {% assign talks = site.seminartalks | where: "talkterm", site.seminar_current_term %}
-        {% for talk in talks %}
-            <tr>
-                <td class="seminar-talk-date">
-                    <a href="{{talk.url}}">{{talk.talkdate}}</a>
-                </td>
-                <td class="seminar-talk-speaker">
-                    {% if talk.speakerurl %}
-                        <a href="{{talk.speakerurl}}">{{talk.speaker}}</a>
-                    {% else %}
-                        {{talk.speaker}}
-                    {% endif %}
-                    {% if talk.speakershortinst %}
-                        <span class="seminar-talk-speaker-inst">{{talk.speakershortinst}}</span>
-                    {% endif %}
-                </td>
-                <td class="seminar-talk-title">
-                    <a href="{{talk.url}}">{{talk.talktitle}}</a>
-                </td>
-            </tr>
-        {% endfor %}
-    </table>
 </div>
