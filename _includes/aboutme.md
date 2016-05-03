@@ -1,5 +1,4 @@
-I am an [Aalto Science Fellow][ascifellow] and a member of the 
-Department of [Information and Computer Science][ics] at [Aalto University][aalto]. I'm also the PI of the thematic program [Challenges in Large Geometric Structures and Big Data][largestructures] at [AScI][asci]. I started, and used to organize an associated [seminar][seminar].  
+I am a Lecturer in Mathematics at St Andrews. 
 
 I like to work on problems that feature an interaction between geometry, combinatorics,
 and algorithmic considerations. I also like theoretical problems that arise out of
