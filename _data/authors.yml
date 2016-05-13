@@ -6,9 +6,15 @@ berardi:
 duncan:
     name: Duncan Blythe
     url: http://www.ml.tu-berlin.de/menue/members/duncan_blythe/
+bob:
+    name: Robert Connelly
+    url: http://www.math.cornell.edu/~connelly/
 farre:
     name: James Farre
     url: http://www.math.utah.edu/~farre/
+shlomo:
+    name: Steven J. Gortler
+    url: http://www.cs.harvard.edu/~sjg/
 ruth:
     name: Ruth Haas
     url: http://cs.smith.edu/~rhaas/
