@@ -42,7 +42,7 @@ explict reference to $$p$$).  See Theorem 8.2.2 in the [survey paper][matroidssu
 
 [matroidssurvey]: /assets/2016/summer/Whiteley - Matroids Survey.pdf
 
-Another starting point for us is that minimum degree $d$$ is enough to make the edge direction
+Another starting point for us is that minimum degree $$d$$ is enough to make the edge direction
 set avoid a quadric.  This is Proposition 4.3 of Bob Connelly's paper on [Generic global rigidity][bobggr].
 (You will need to be on campus or use the library proxy to get this.)
 
