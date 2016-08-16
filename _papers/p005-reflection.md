@@ -18,4 +18,4 @@ the latter certifies that this framework is infinitesimally rigid.
 **Note:** The content of this preprint appeared as part of 
 ["Frameworks with forced symmetry I"][forced]
 
-[forced]: /papers/p007-rr.html
+[forced]: papers/j011-rr.html
