@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: journal
-arxiv: 0711.2838
+arxiv: "0711.2838"
 doi: 10.3217/jucs-013-11
 journal: jucs
 authors:
