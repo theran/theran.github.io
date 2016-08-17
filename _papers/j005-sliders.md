@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: journal
-arxiv: 0712.0031
+arxiv: "0712.0031"
 doi: 10.1007/s00454-010-9283-y
 journal: dcg
 authors:

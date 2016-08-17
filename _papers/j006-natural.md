@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: journal
-arxiv: 0711.3013
+arxiv: "0711.3013"
 journal: amc
 authors:
     - ileana

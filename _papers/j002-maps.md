@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: journal
-arxiv: 0704.3843
+arxiv: "0704.3843"
 journal: jcmcc
 authors:
     - ruth

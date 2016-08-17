@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: journal
-arxiv: 0704.0002
+arxiv: "0704.0002"
 doi: 10.1007/s00373-008-0834-4
 journal: gc
 authors:

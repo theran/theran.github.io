@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: conference
-arxiv: 0812.0872
+arxiv: "0812.0872"
 fulltexturl: http://cccg.ca/proceedings/2009/cccg09_17.pdf
 conference: cccg
 authors:
