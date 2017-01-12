@@ -1,13 +1,14 @@
 ---
 layout: paper
-type: preprint
+type: journal
 arxiv: 1605.07911
+journal: imrn
 authors:
     - bob
     - shlomo
     - louis
 title: Affine rigidity and conics at infinity 
-year: 2016
+year: to appear
 ---
 
 We prove that if a framework of a graph is neighborhood affine rigid in $$d$$-dimensions (or has the stronger property of 
