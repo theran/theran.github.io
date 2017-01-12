@@ -8,7 +8,6 @@ authors:
     - shlomo
     - louis
 title: Affine rigidity and conics at infinity 
-year: to appear
 ---
 
 We prove that if a framework of a graph is neighborhood affine rigid in $$d$$-dimensions (or has the stronger property of 
