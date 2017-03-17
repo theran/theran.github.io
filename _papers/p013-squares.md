@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: preprint
-arxiv: 1703.05150
+arxiv: "1703.05150"
 authors:
     - daniel
     - richard
