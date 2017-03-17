@@ -9,6 +9,9 @@ duncan:
 bob:
     name: Robert Connelly
     url: http://www.math.cornell.edu/~connelly/
+marcelo:
+    name: Marcelo A. Dias
+    url: https://mazdias.wordpress.com
 farre:
     name: James Farre
     url: http://www.math.utah.edu/~farre/
@@ -52,6 +55,9 @@ tony:
 arnau:
     name: Arnau Padrol
     url: http://page.mi.fu-berlin.de/arnaupadrol/
+daniel:
+    name: Daniel Rayneau-Kirkhope
+    url: http://rayneau-kirkhope.co.uk/
 igor:
     name: Igor Rivin
     url: https://math.temple.edu/~rivin/
@@ -89,4 +95,6 @@ uno:
     url: http://research.nii.ac.jp/~uno/
 xilin:
     name: Xilin Yu
+richard:
+    name: Chengzhao Zhang
 
