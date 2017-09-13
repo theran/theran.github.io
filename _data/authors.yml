@@ -15,6 +15,9 @@ marcelo:
 farre:
     name: James Farre
     url: http://www.math.utah.edu/~farre/
+yannis:
+    name: Ioannis Gkioulekas
+    url: http://people.seas.harvard.edu/~igkiou/
 shlomo:
     name: Steven J. Gortler
     url: http://www.cs.harvard.edu/~sjg/
@@ -97,4 +100,7 @@ xilin:
     name: Xilin Yu
 richard:
     name: Chengzhao Zhang
+todd:
+    name: Todd Zickler
+    url: http://www.eecs.harvard.edu/~zickler/
 
