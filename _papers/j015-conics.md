@@ -4,6 +4,8 @@ type: journal
 arxiv: 1605.07911
 journal: imrn
 doi: 10.1093/imrn/rnx014
+year: 2017
+volume: rnx014
 authors:
     - bob
     - shlomo
