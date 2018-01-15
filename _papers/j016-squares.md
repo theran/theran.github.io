@@ -1,6 +1,6 @@
 ---
 layout: paper
-type: paper
+type: journal
 journal: rspa
 arxiv: "1703.05150"
 authors:
