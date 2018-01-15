@@ -1,6 +1,7 @@
 ---
 layout: paper
-type: preprint
+type: paper
+journal: rspa
 arxiv: "1703.05150"
 authors:
     - daniel
@@ -8,7 +9,6 @@ authors:
     - louis
     - marcelo
 title: Analytic analysis of auxetic metamaterials through analogy with rigid link systems
-year: 2017
 ---
 
 Recent progress in advanced additive manufacturing techniques has stimulated the growth 
