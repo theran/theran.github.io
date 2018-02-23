@@ -3,6 +3,10 @@ layout: paper
 type: journal
 journal: rspa
 arxiv: "1703.05150"
+year: 2018
+doi: 10.1098/rspa.2017.0753
+volume: 474
+issue: 2210
 authors:
     - daniel
     - richard
