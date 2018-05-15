@@ -11,7 +11,7 @@ layout: default
             {% if page.authors %}
             <tr>
                 <td class="paper-authors">
-                    Authors:
+                    {% assign numberofauthors = page.authors.size %}Author{% if numberofauthors>1 %}s{% endif %}:
                 </td>
                 <td class="paper-authors">
                     {% for author in page.authors %}
@@ -90,6 +90,7 @@ layout: default
   <div class="paper-abstract">
     {{ content }}
   </div>
+
   {% if page.type=="journal" %}
   <div class="bibtex">
   {% capture bibtex %}
