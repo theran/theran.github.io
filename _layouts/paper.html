@@ -5,7 +5,7 @@ layout: default
 
   <header class="paper-header">
     <h1 class="paper-title">{{ page.title }}</h1>
-    
+
     <div class="paper-bibdata">
         <table>
             {% if page.authors %}
@@ -30,7 +30,7 @@ layout: default
                     <td class="paper-journal-ref">
                         {% assign journal = site.data.journals[page.journal] %}
                         {% if journal.url %}
-                            <a class="journal-title" 
+                            <a class="journal-title"
                                 href="{{journal.url}}">{{journal.title}}</a>{% else %}
                             <span class="journal-title">{{journal.title}}</a>{% endif %}{% if page.volume %}, <span class="journal-volume">{{page.volume}}</span>{% if page.issue %}<span class="journal-issue">{{page.issue}}</span>{% if page.pages %}<span class="journal-pages">{{page.pages}}</span>{% endif %}{% endif %}{% endif %}{% if page.year %}, <span class="journal-year">{{page.year}}</span>.
                         {% else %}, <span class="journal-to-appear">to appear</span>.
@@ -90,5 +90,20 @@ layout: default
   <div class="paper-abstract">
     {{ content }}
   </div>
-
+  {% if page.type=="journal" %}
+  <div class="bibtex">
+  {% capture bibtex %}
+      @Article{ {% for author in page.authors %}{% assign author_h = site.data.authors[author] %}{% assign names = author_h.name | split:' ' %}{% for name in names %}{% if forloop.last %}{{ name }}{% endif %}{% endfor %}{% if forloop.length >= 2 %}_{% endif %}{% endfor %}{% assign titlewords = page.title | split: ' ' %}{% for word in titlewords %}{% if forloop.first %}{{ word }}{% endif %}{% endfor %}{{page.year}},
+        author = "{% for author in page.authors %}{% assign author_h = site.data.authors[author] %}{{author_h.name}}{% unless forloop.last %} and {% endunless %}{% endfor %}",
+        title = "{{ page.title }}",
+        year = "{{page.year}}",
+        journal = "{{journal.title}}",
+        volume = "{{page.volume}}",
+        number = "{{page.issue}}",
+        pages = "{{page.pages}}",
+        doi = "{{page.doi}}"
+      }
+      {% endcapture %}{{ bibtex | markdownify }}
+  </div>
+  {% endif %}
 </div>
