@@ -90,21 +90,4 @@ layout: default
   <div class="paper-abstract">
     {{ content }}
   </div>
-
-  {% if page.type=="journal" %}
-  <div class="bibtex">
-  {% capture bibtex %}
-      @Article{ {% for author in page.authors %}{% assign author_h = site.data.authors[author] %}{% assign names = author_h.name | split:' ' %}{% for name in names %}{% if forloop.last %}{{ name }}{% endif %}{% endfor %}{% if forloop.length >= 2 %}_{% endif %}{% endfor %}{% assign titlewords = page.title | split: ' ' %}{% for word in titlewords %}{% if forloop.first %}{{ word }}{% endif %}{% endfor %}{{page.year}},
-        author = "{% for author in page.authors %}{% assign author_h = site.data.authors[author] %}{{author_h.name}}{% unless forloop.last %} and {% endunless %}{% endfor %}",
-        title = "{{ page.title }}",
-        year = "{{page.year}}",
-        journal = "{{journal.title}}",
-        volume = "{{page.volume}}",
-        number = "{{page.issue}}",
-        pages = "{{page.pages}}",
-        doi = "{{page.doi}}"
-      }
-      {% endcapture %}{{ bibtex | markdownify }}
-  </div>
-  {% endif %}
 </div>
