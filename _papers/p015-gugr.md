@@ -1,7 +1,7 @@
 ---
 layout: paper
 type: preprint
-arxiv: "1806.08688 "
+arxiv: "1806.08688"
 authors:
     - shlomo
     - louis
