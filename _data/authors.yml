@@ -73,6 +73,12 @@ elissa:
 mahdi:
     name: Mahdi Sadjadi
     url: http://mahdisadjadi.com
+bernd:
+    name: Bernd Schulze
+    url: http://www.lancaster.ac.uk/maths/people/bernd-schulze
+hattie:
+    name: Hattie Serocold
+    url: http://www.lancaster.ac.uk/maths/people/hattie-serocold
 jessica:
     name: Jessica Sidman
     url: http://www.mtholyoke.edu/~jsidman/
@@ -93,6 +99,9 @@ ryota:
 mike:
     name: Michael Thorpe
     url: http://thorpe2.la.asu.edu/thorpe
+dylan:
+    name: Dylan P. Thurston
+    url: http://pages.iu.edu/~dpthurst/
 uno:
     name: Takeaki Uno
     url: http://research.nii.ac.jp/~uno/
