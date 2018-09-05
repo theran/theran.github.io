@@ -11,14 +11,14 @@ github_username:  theran
 my_authortag: louis
 
 # current seminar term
-#seminar_current_term: spring2016
+seminar_current_term: "2018S1"
 
 # collections
 collections:
     papers:
         output: true
-#    seminartalks:
-#        output: true
+    seminartalks:
+        output: true
 
 # Build settings
 markdown: kramdown

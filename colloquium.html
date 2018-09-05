@@ -1,0 +1,38 @@
+--- 
+layout: default 
+permalink: /pure-colloquium/ 
+title: Pure Maths Colloquium 
+---
+
+<h1 class="page-heading">Pure Maths Colloquium</h1>
+
+<div class="seminar-home-blurb">
+    <p>This is the home page of the
+        <a href="https://www.st-andrews.ac.uk/maths/">School of Maths and Stats</a>
+        at the
+        <a href="https://www.st-andrews.ac.uk/">University of St Andrews</a>. The colloquium is usually on Thursdays at 16:00. For a list of talks before Fall of
+        2018, see
+        <a href="http://www.mcs.st-and.ac.uk/~miket/PureColl/pure_coll_index_old.html">this page</a>.
+    </p>
+</div>
+
+<div class="seminar-home-talks-list">
+    <table>
+        {% assign talks = site.seminartalks | where: "talkterm", site.seminar_current_term %} {% for talk in talks %}
+        <tr>
+            <td class="seminar-talk-date">
+                <a href="{{talk.url}}">{{talk.talkdate}}</a>
+            </td>
+            <td class="seminar-talk-speaker">
+                {% if talk.speakerurl %}
+                <a href="{{talk.speakerurl}}">{{talk.speaker}}</a>
+                {% else %} {{talk.speaker}} {% endif %} {% if talk.speakershortinst %}
+                <span class="seminar-talk-speaker-inst">{{talk.speakershortinst}}</span>
+                {% endif %}
+            </td>
+            <td class="seminar-talk-title">
+                <a href="{{talk.url}}">{{talk.talktitle}}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>

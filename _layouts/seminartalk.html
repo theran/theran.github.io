@@ -1,25 +1,15 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <div class="seminar-talk">
-    <h1 class="seminar-title">Large Structures Seminar: {{page.speaker}}</h1>
+    <h1 class="seminar-title">Pure Maths Colloquium: {{page.speaker}}</h1>
     <div class="seminar-blurb">
         <p>
-            This talk is part of the AScI Thematic program
-            "<a href="http://largestructures.asci.aalto.fi/">Challenges in 
-                Large Geometric Structures and Big Data</a>" seminar.
-            Check out our upcomning talks at 
-            <a href="http://theran.lt/largestructures-seminar">
-                http://theran.lt/largestructures-seminar</a>.
+            This talk is part of the Pure Maths Colloquium at the University of St Andrews. Check out our upcoming talks at
+            <a href="http://theran.lt/pure-colloquium/">
+                http://theran.lt/pure-colloquium/</a>.
         </p>
-        {% if page.dinnertime %}
-        <p>
-            We will meet up at {{page.dinnertime}} at 
-            <a href="{{page.dinnerurl}}">{{page.dinnerplace}}</a> for a 
-            seminar dinner.
-        </p>
-        {% endif %}
     </div>
     <div class="seminar-talk-coords">
         <table>
@@ -39,13 +29,9 @@ layout: default
                 <td class="seminar-talk-speaker">Speaker:</td>
                 <td class="seminar-talk-speaker">
                     {% if page.speakerurl %}
-                        <a href="{{page.speakerurl}}">{{page.speaker}}</a>
-                    {% else %}
-                        {{page.speaker}}
-                    {% endif %}
-                    {% if page.speakerinst %}
-                        <span
-                            class="seminar-talk-speaker-inst">{{page.speakerinst}}</span>
+                    <a href="{{page.speakerurl}}">{{page.speaker}}</a>
+                    {% else %} {{page.speaker}} {% endif %} {% if page.speakerinst %}
+                    <span class="seminar-talk-speaker-inst">{{page.speakerinst}}</span>
                     {% endif %}
                 </td>
             </tr>

@@ -507,7 +507,7 @@ h1.paper-title {
     }
     
     .seminar-talk-date {
-        width: 15%;
+        width: 20%;
         
         @include media-query($on-palm) {
             width: 30%;
@@ -531,7 +531,7 @@ h1.paper-title {
     }
     
     .seminar-talk-speaker {
-        width: 25%;
+        width: 45%;
         @include media-query($on-palm) {
             width: 70%;
         }
