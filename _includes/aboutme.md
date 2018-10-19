@@ -16,7 +16,7 @@ For more detail, see the list of publications below, the
 see my [contact information][contact].
 
 
-[seminar]: https://theran.lt/pure-colloquium/
+[seminar]: /pure-colloquium/
 [cv]: /CV/
 [bio]: bio
 [contact]: /contact/
