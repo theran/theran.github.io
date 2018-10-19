@@ -10,7 +10,7 @@ title: Generic unlabeled global rigidity
 year: 2018
 ---
 
-Let $$\mathbf{p}$$ be a configuration of $n$ points in $$\mathbb{R}^d$$ for some $$n$$ and some $$d \ge 2$$. 
+Let $$\mathbf{p}$$ be a configuration of $$n$$ points in $$\mathbb{R}^d$$ for some $$n$$ and some $$d \ge 2$$. 
 Each pair of points has a Euclidean length in the configuration. Given some  
 graph $$G$$ on $$n$$ vertices, we measure the point-pair lengths corresponding
 to the edges of $$G$$.
