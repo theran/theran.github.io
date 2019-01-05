@@ -7,18 +7,26 @@ shorttitle: Bio
 
 ## Research projects
 I'm interested in problems that blend discrete geometry, algorithms, and 
-combinatorics with concrete applied scenarios.  Recently, I have been
-working on:
+combinatorics, usually with a concrete motivation. Some of my past projects include:
 
-* Infinite and symmetric bar-joint frameworks
-* Combinatorial approaches to low-rank matrix completion
-* Capturing  structure in data with matroids and other combinatorial objects
-* The (algebraic) geometry of kernel methods from a generative point of view
+* The combinatorial rigidity of infinite and symmetric bar-joint frameworks
+* Matrix completion and other machine learning problems from a combinatorial / algebraic viewpoint
+* Bar-joint framework models for analyzing elastic materials
+
+Some recent projects are:
+
+* Unlabeled distance geometry (aka, "hearing the shape of a (high dimensional) room")
+* Hidden symmetries in the deformation spaces of polyhedral surfaces (aka, "why generic origami folds")
+* Structure and applications of algebraic matroids
+* 
+
 
 ## Academic positions
 
+5.2016–
+: Lecturer in Pure Mathematics, University of St Andrews
 
-6.2014–5.2017
+6.2014–5.2016
 : Aalto Science Fellow. (Cofunded by AKA project [COALESCE][pkaka], 
 PI [Petteri Kaski][pk])
 
