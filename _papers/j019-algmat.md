@@ -1,13 +1,14 @@
 ---
 layout: paper
-type: preprint
+type: journal
+journal: monthly
 arxiv: "1809.00865"
 authors:
     - zvi
     - jessica
     - louis
 title: Algebraic matroids in action
-year: 2018
+year: to appear
 ---
 
 In recent years, surprising connections between applications including
