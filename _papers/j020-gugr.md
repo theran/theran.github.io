@@ -1,13 +1,15 @@
 ---
 layout: paper
-type: preprint
+type: journal
 arxiv: "1806.08688"
+doi: 10.1017/fms.2019.16
+journal: sigma
 authors:
     - shlomo
     - louis
     - dylan
 title: Generic unlabeled global rigidity
-year: 2018
+year: 2019
 ---
 
 Let $$\mathbf{p}$$ be a configuration of $$n$$ points in $$\mathbb{R}^d$$ for some $$n$$ and some $$d \ge 2$$. 
