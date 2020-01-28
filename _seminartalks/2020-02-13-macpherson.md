@@ -6,7 +6,7 @@ speakershortinst: Leeds
 speakerurl: http://www1.maths.leeds.ac.uk/~pmthdm/
 talktitle: Classification for homogeneous relational structures
 talkdate: Feb 13 2020
-talkterm: "2019S2"
+talkterm: "2020S2"
 talktime: "16.00"
 talkplace: Lecture Theatre C
 title: "Pure Maths Colloquium - Dugald MacPherson"
