@@ -5,7 +5,7 @@ speakerinst: Oxford University
 speakershortinst: Oxford
 speakerurl: https://www.maths.ox.ac.uk/people/heather.harrington
 talktitle: Algebraic Systems Biology
-talkdate: Feb 6 2020
+talkdate: Feb 20 2020
 talkterm: "2020S2"
 talktime: "16.00"
 talkplace: Lecture Theatre C
