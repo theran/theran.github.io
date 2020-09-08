@@ -15,7 +15,13 @@ layout: default
         <table>
             <tr>
                 <td class="seminar-talk-place">Where:</td>
-                <td class="seminar-talk-place">{{page.talkplace}}</td>
+                <td class="seminar-talk-place">
+                {% if page.talkplaceurl%}
+                <a href="{{page.talkplaceurl}}">{{page.talkplace}}</a>
+                {% else %}
+                {{page.talkplace}}
+                {% endif %}
+                </td>
             </tr>
             <tr>
                 <td class="seminar-talk-time">When:</td>

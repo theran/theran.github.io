@@ -6,6 +6,9 @@ berardi:
 duncan:
     name: Duncan Blythe
     url: http://www.ml.tu-berlin.de/menue/members/duncan_blythe/
+bryan: 
+    name: Bryan Gin-ge Chen
+    url: https://www.sas.upenn.edu/~chb/index.html
 bob:
     name: Robert Connelly
     url: http://www.math.cornell.edu/~connelly/
@@ -52,6 +55,9 @@ audreylee:
 justin:
     name: Justin Malestein
     url: http://www.math.uni-bonn.de/people/justinm/
+james:
+    name: James McInerney
+    url: https://jpmcinerney.github.io
 cris:
     name: Cristopher Moore
     url: http://tuvalu.santafe.edu/~moore/
@@ -67,6 +73,9 @@ daniel:
 igor:
     name: Igor Rivin
     url: https://math.temple.edu/~rivin/
+zeb:
+    name: Zeb Rocklin
+    url: https://physics.gatech.edu/user/david-rocklin
 zvi:
     name: Zvi Rosen
     url: http://math.berkeley.edu/~zhrosen/
@@ -76,6 +85,9 @@ elissa:
 mahdi:
     name: Mahdi Sadjadi
     url: http://mahdisadjadi.com
+chris: 
+    name: Chris Santangelo
+    url: https://blogs.umass.edu/csantang/
 bernd:
     name: Bernd Schulze
     url: http://www.lancaster.ac.uk/maths/people/bernd-schulze

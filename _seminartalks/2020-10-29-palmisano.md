@@ -5,10 +5,11 @@ speakerinst: Durham University
 speakershortinst: Durham
 speakerurl: 
 talktitle: Attractors and their stability
-talkdate: Mar 12 2020
-talkterm: "2020S2"
+talkdate: Oct 29 2020
+talkterm: "2020S1"
 talktime: "16.00"
-talkplace: Lecture Theatre C
+talkplace: Zoom 892 6552 0430
+talkplaceurl: https://us02web.zoom.us/j/89265520430
 title: "Pure Maths Colloquium - Liviana Palmisano"
 ---
 
