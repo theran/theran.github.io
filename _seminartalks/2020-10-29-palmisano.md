@@ -10,6 +10,7 @@ talkterm: "2020S1"
 talktime: "16.00"
 talkplace: Zoom 892 6552 0430
 talkplaceurl: https://us02web.zoom.us/j/89265520430
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/EWofEtxdDRdHkJUrvsZ2OWYB9zxDBJwmocAVZtl7XlVUFw?e=f56Ks7
 title: "Pure Maths Colloquium - Liviana Palmisano"
 ---
 
