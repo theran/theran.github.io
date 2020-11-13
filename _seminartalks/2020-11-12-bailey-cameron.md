@@ -10,6 +10,7 @@ talkterm: "2020S1"
 talktime: "16.00"
 talkplace: Zoom 867 5899 4533
 talkplaceurl: https://us02web.zoom.us/j/86758994533
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/EeyROwoyGzBLr3Qtc-rtuGIBTVhK6USNHdMcGAqvADr_pQ?e=gP0Veu
 title: "Pure Maths Colloquium - Rosemary Bailey and Peter Cameron"
 ---
 
