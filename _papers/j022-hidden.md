@@ -1,6 +1,6 @@
 ---
 layout: paper
-type: preprint
+type: journal
 arxiv: "2003.01095"
 authors:
     - james
@@ -9,6 +9,8 @@ authors:
     - chris
     - zeb
 title: Hidden symmetries generate rigid folding mechanisms in periodic origami
+doi: 10.1073/pnas.2005089117
+journal: pnas
 year: 2020
 ---
 

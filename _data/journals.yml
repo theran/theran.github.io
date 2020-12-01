@@ -34,7 +34,7 @@ imrn:
     title: International Mathematics Research Notices
     url: https://academic.oup.com/imrn
 rspa:
-    title: Proceedings of the Royal Society A
+    title: Proc. of the Royal Society A
     url: http://rspa.royalsocietypublishing.org
 combinatorica:
     title: Combinatorica
@@ -47,4 +47,7 @@ sigma:
     url: https://www.cambridge.org/core/journals/forum-of-mathematics-sigma
 cpam:
     title: Communications on Pure and Applied Mathematics
-    url: https://onlinelibrary.wiley.com/journal/10970312
+    url: https://onlinelibrary.wiley.com/journal/
+pnas:
+    title: Proc. of the National Academy of Sciences 
+    url: https://www.pnas.org
