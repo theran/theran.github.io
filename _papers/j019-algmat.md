@@ -8,7 +8,8 @@ authors:
     - jessica
     - louis
 title: Algebraic matroids in action
-year: to appear
+year: 2020
+doi: 10.1080/00029890.2020.1689781
 ---
 
 In recent years, surprising connections between applications including

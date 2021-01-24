@@ -8,6 +8,8 @@ authors:
     - shlomo
     - louis
 title: Generically globally rigid graphs have generic universally rigid frameworks
+year: 2020
+doi: 10.1007/s00493-018-3694-4
 ---
 
 We show that any graph that is generically globally rigid  in $$\mathbb{R}^d$$ has a

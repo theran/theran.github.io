@@ -1,6 +1,7 @@
 <div class="journal-papers-list" id="journal-papers">
     <h2 class="page-heading">Journal papers</h2>
-    {% for paper in site.papers reversed %}
+    {% assign papersbyyear = site.papers | sort: "year" %}
+    {% for paper in papersbyyear reversed %}
         {% if paper.type == "journal" %}
             <div class="paper-list-paper">
                 <a class="paper-list-title" href="{{paper.url}}">{{paper.title}}</a>
