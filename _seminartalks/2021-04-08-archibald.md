@@ -3,7 +3,7 @@ layout: seminartalk
 speaker: Tom Archibald
 speakerinst: Simon Fraser University
 speakershortinst: Simon Fraser
-speakerurl: https://dibernstein.github.io
+speakerurl: http://people.math.sfu.ca/~tarchi/
 talktitle: TBD
 talkdate: Apr 08 2021
 talkterm: "2021S2"
