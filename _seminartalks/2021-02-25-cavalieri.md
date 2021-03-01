@@ -10,6 +10,7 @@ talkterm: "2021S2"
 talktime: "16.00"
 talkplace: Zoom 897 4870 8278
 talkplaceurl: https://us02web.zoom.us/j/89748708278
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/ERAhzA8re2VFpmGeRWLEKskBoAcFwEcW1UcKiTF7mkPACA?e=EP5129
 title: "Pure Maths Colloquium - Renzo Cavalieri"
 ---
 
