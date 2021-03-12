@@ -10,6 +10,7 @@ talkterm: "2021S2"
 talktime: "16.00"
 talkplace: Zoom 868 3518 6265
 talkplaceurl: https://us02web.zoom.us/j/86835186265
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/ESns_7FC8XtLm9T7nJzO5hUBHMoVLo6KEsJLtH2U3dBVoQ?e=BwHvd0
 title: "Pure Maths Colloquium - Daniel Bernstein"
 ---
 
