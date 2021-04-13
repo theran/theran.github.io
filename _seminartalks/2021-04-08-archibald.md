@@ -10,6 +10,7 @@ talkterm: "2021S2"
 talktime: "16.00"
 talkplace: Zoom 854 3427 8839
 talkplaceurl: https://us02web.zoom.us/j/85434278839
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/EUvarGZBgjZGnGAa-qJRY9IBSpqgl4ln6M6gBoN2Axwh_w?e=3LcZWu
 title: "Pure Maths / Maths History Colloquium - Tom Archibald"
 ---
 
