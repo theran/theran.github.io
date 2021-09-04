@@ -1,8 +1,7 @@
 ---
 layout: cv
-permalink: /CV/
+permalink: /CV-short/
 title: "Louis Theran - Curriculum Vitae"
-shorttitle: CV
 headerdata:
     url: http://theran.lt/
     email: lst6@st-andrews.ac.uk
@@ -181,16 +180,6 @@ seminars:
         comment: undergraduate ProSeminar
         term: Summer 2013
 dissertationcommittees:
-    - 
-        student: Sean Dewar
-        institution: Lancaster University
-        department: Department of Mathematics and Statistics
-        year: 2019
-    -   
-        student: Katie Clinch
-        institution: Queen Mary University of London
-        department: School of Mathematical Sciences
-        year: 2018
     -
         student: Tom Bourne
         institution: University of St Andrews
@@ -209,72 +198,6 @@ dissertationcommittees:
         thesistitle: Representations of polytopes
         year: 2011
 bachelortheses:
-    -
-        student: George O'Rourke
-        institution: University of St Andrews
-        thesistitle: Turing-tape games
-        myrole: BSc project co-supervisor (maths/cs joint)
-        year: 2021
-    - 
-        student: Marley Chinn
-        institution: University of St Andrews
-        thesistitle: Surreal numbers & combinatorial games
-        myrole: BSc project co-supervisor (maths/cs joint)
-        year: 2021
-    - 
-        student: George Tillisch
-        institution: University of St Andrews
-        thesistitle: Formalising coding theory in Lean
-        myrole: BSc project supervisor
-        year: 2021
-    -
-        student: Mohammad al Attar
-        institution: University of St Andrews
-        thesistitle: Geometry of manifolds
-        myrole: BSc project supervisor
-        year: 2021
-    -
-        student: Giacomo Fenzi
-        institution: University of St Andrews
-        thesistitle: Zero knowledge proofs – theory and applications
-        myrole: BSc project co-supervisor (maths/cs)
-        year: 2020
-    -
-        student: Ryan Jarvis
-        institution: University of St Andrews
-        thesistitle: An introduction to tensegrities
-        myrole: BSc project supervisor
-        year: 2020
-    -
-        student: Ian MacKenzie
-        institution: University of St Andrews
-        thesistitle: Nearly isostatic networks and allosteric effects
-        myrole: MMath project supervisor
-        year: 2020
-    - 
-        student: Christopher White
-        institution: University of St Andrews
-        thesistitle: The natural correspondence between Steinitz Representations and Colin de Verdière matrices
-        myrole: BSc project supervisor
-        year: 2019
-    -
-        student: Antoine Goldsborough
-        institution: University of St Andrews
-        thesistitle: Cycle rooted spanning forests and the vector bundle Laplacian
-        myrole: MMath project supervisor
-        year: 2019
-    -
-        student: Jakab Perczel
-        institution: University of St Andrews
-        thesistitle: Introduction to rigidity theory
-        myrole: BSc project supervisor
-        year: 2018
-    - 
-        student: Oliver Vierkins
-        institution: University of St Andrews
-        thesistitle: Introduction to rigidity theory
-        myrole: BSc project supervisor
-        year: 2018
     -
         student: Kestutis Vilcinskas
         institution: University of St Andrews
@@ -325,25 +248,10 @@ bachelortheses:
         year: 2011
 departmentalservice:
     -
-        note: Director of Admissions
-        department: School of Mathematics and Statistics
-        institution: University of St Andrews
-        year: 2021–
-    -
-        note: co-Director of admissions
-        department: School of Mathematics and Statistics
-        institution: University of St Andrews
-        year: 2020–2021
-    -
-        note: Admissions officer
-        department: School of Mathematics and Statistics
-        institution: University of St Andrews
-        year: 2018–2020
-    -
         note: Research Committee
         department: School of Mathematics and Statistics
         institution: University of St Andrews
-        year: 2016–2017
+        year: 2016–
     -
         note: Graduate student representative
         department: Department of Computer Science
@@ -355,6 +263,11 @@ departmentalservice:
         institution: University of Massachusetts, Amherst
         year: 2006
 conferenceorganization:
+    -
+        event: Workshop on Progress and Open Problems in Rigidity Theory
+        month: 2
+        year: 2021
+        myrole: Co-organizer
     -
         event: Mini-symposium on Algebraic Methods in Rigidity Theory at SIAM AG2017
         month: 8
@@ -475,7 +388,7 @@ for a more detailed description of current projects.) {% endcomment %}
     {% endfor %}
 </div>
 
-<h2>Industry positions</h2>
+{% comment %} <h2>Industry positions</h2>
 <div class="industry-positions">
     {% for pos in page.industrypositions %}
         <div class="position">
@@ -492,9 +405,9 @@ for a more detailed description of current projects.) {% endcomment %}
                 {% endif %} -->
         </div>
     {% endfor %}
-</div>
+</div> {% endcomment %}
 
-<h2>Funding</h2>
+{% comment %} <h2>Funding</h2>
 <div class="funding-wrapper">
     {% for f in page.funding %}
         <div class="funding-item">
@@ -513,7 +426,7 @@ for a more detailed description of current projects.) {% endcomment %}
             </div>
         </div>
     {% endfor %}
-</div>
+</div> {% endcomment %}
 
 <h2>Publications</h2>
 <div class="publications">
@@ -522,7 +435,7 @@ for a more detailed description of current projects.) {% endcomment %}
     {% include preprints.html %}
 </div>
 
-<h2>Teaching</h2>
+{% comment %} <h2>Teaching</h2>
 <div class="teaching">
     <h2>Courses</h2>
     <div class="courses-wrapper">
@@ -555,7 +468,7 @@ for a more detailed description of current projects.) {% endcomment %}
             </div>
         {% endfor %}
     </div>
-</div>
+</div> {% endcomment %}
 
 <h2>Service</h2>
 <div class="service">
@@ -575,7 +488,7 @@ for a more detailed description of current projects.) {% endcomment %}
             </div>
         {% endfor %}
     </div>
-        
+{% comment %}         
     <h2>Bachelor theses and projects</h2>
     <div class="bachelortheses-wrapper">
         {% for bt in page.bachelortheses %}
@@ -598,7 +511,7 @@ for a more detailed description of current projects.) {% endcomment %}
                 </div>
             </div>
         {% endfor %}
-    </div>
+    </div> {% endcomment %}
         
     <h2>Conference organization</h2>
     <div class="conforg-wrapper">
@@ -615,7 +528,7 @@ for a more detailed description of current projects.) {% endcomment %}
         {% endfor %}
     </div>
     
-    <h2>Departmental service</h2>
+    {% comment %} <h2>Departmental service</h2>
     <div class="deptservice-wrapper">
         {% for svc in page.departmentalservice %}
             <div class="service">
@@ -642,7 +555,7 @@ for a more detailed description of current projects.) {% endcomment %}
                 <span class="ref-conference">{{conference}}</span>
             {% endfor %}
         </div>
-    </div>
+    </div> {% endcomment %}
 </div>
 </div> <!-- end of cv-main -->
 <div class="cv-footer">

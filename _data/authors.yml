@@ -3,6 +3,9 @@ karim:
     url: http://page.mi.fu-berlin.de/adiprasito/
 berardi:
     name: Matthew Berardi
+danielb: 
+    name: Daniel Bernstein
+    url: https://dibernstein.github.io/
 duncan:
     name: Duncan Blythe
     url: http://www.ml.tu-berlin.de/menue/members/duncan_blythe/
@@ -12,6 +15,9 @@ bryan:
 bob:
     name: Robert Connelly
     url: http://www.math.cornell.edu/~connelly/
+sean:
+    name: Sean Dewar
+    url: https://www.oeaw.ac.at/ricam/staff/sean-dewar
 marcelo:
     name: Marcelo A. Dias
     url: https://mazdias.wordpress.com
@@ -27,6 +33,9 @@ shlomo:
 ruth:
     name: Ruth Haas
     url: http://cs.smith.edu/~rhaas/
+varda: 
+    name: Varda F. Hagh
+    url: https://physics.uchicago.edu/people/profile/varda-hagh/
 brent:
     name: Brent Heeringa
     url: http://dept.cs.williams.edu/~heeringa/
@@ -35,6 +44,8 @@ miranda:
     url: https://cims.nyu.edu/~holmes/
 catalin:
     name: Marius Cătălin Iordan
+mingyu:
+    name: Mingyu Kang
 shiva:
     name: Shiva Kasiviswanathan
     url: http://www.cse.psu.edu/~kasivisw/
@@ -97,6 +108,9 @@ hattie:
 jessica:
     name: Jessica Sidman
     url: http://www.mtholyoke.edu/~jsidman/
+meera:
+    name: Meera Sitharam
+    url: https://www.cise.ufl.edu/~sitharam/
 stark:
     name: Stephanie Stark
 ileana:

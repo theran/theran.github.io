@@ -51,3 +51,6 @@ cpam:
 pnas:
     title: Proc. of the National Academy of Sciences 
     url: https://www.pnas.org
+physicab:
+    title: physica status solidi (b)
+    url: https://onlinelibrary.wiley.com/journal/15213951
