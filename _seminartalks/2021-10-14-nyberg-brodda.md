@@ -8,7 +8,7 @@ talktitle: TBD
 talkdate: Oct 14 2021
 talkterm: "2021S1"
 talktime: "16.00"
-talkplace: 
-talkplaceurl: 
+talkplace: Zoom 812 1857 5349
+talkplaceurl: https://us02web.zoom.us/j/81218575349
 title: "Pure Maths Colloquium - Carl Frederick Nyberg-Brodda"
 ---
