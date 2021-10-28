@@ -10,6 +10,7 @@ talkterm: "2021S1"
 talktime: "16.00"
 talkplace: Zoom 812 1857 5349
 talkplaceurl: https://us02web.zoom.us/j/81218575349
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/EVuKvdJY4ClKv3CnsA0FW4kBGnNH9AYp7KGLCOPow0N1fQ?e=GOhz7o
 title: "Pure Maths Colloquium - Carl Frederick Nyberg-Brodda"
 ---
 
