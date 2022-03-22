@@ -8,6 +8,7 @@ talktitle: Additive combinatorics, Diophantine problems and Fourier analysis
 talkdate: Mar 17 2022
 talkterm: "2022S2"
 talktime: "16.00"
+talkvideourl: https://universityofstandrews907-my.sharepoint.com/:v:/g/personal/lst6_st-andrews_ac_uk/EV94zJYynHpBtB8SnHEYCDABEBY8Gq090chCVX1tDLvDIQ?e=TrV0Zf
 talkplace: Purdie Theatre C
 title: "Pure Maths Colloquium - Sean Prendiville"
 ---
