@@ -1,7 +1,5 @@
 I am a Lecturer in Mathematics at St Andrews. 
 
-Starting in Fall 2018, I'm organizing the [pure maths colloquium][seminar].
-
 I like to work on problems that feature an interaction between geometry, combinatorics,
 and algorithmic considerations. I also like theoretical problems that arise out of
 concrete, applied scenarios.

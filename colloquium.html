@@ -7,38 +7,11 @@ title: Pure Maths Colloquium
 <h1 class="page-heading">Pure Maths Colloquium</h1>
 
 <div class="seminar-home-blurb">
-    <p>This is the home page of the Pure Maths Colloquium at 
-        <a href="https://www.st-andrews.ac.uk/maths/">School of Maths and Stats</a>,
-        <a href="https://www.st-andrews.ac.uk/">University of St Andrews</a>. 
-        Talks are usually on Thursdays at 16:00 (but see each announcement, 
-        since they aren't always!).
+    <p>The Pure Colloquium is organized by 
+        <a href="https://harper-scott.github.io">Scott Harper</a> now.
     </p>
     <p>
-        The schedule for the current semester is below.  Talks from  
-        (recent) previous semesters are <a href="/pure-colloquium-historical/">here</a>.
-        For a list of talks from before S1
-        2018, see
-        <a href="http://www.mcs.st-and.ac.uk/~miket/PureColl/pure_coll_index_old.html">this page</a>.
+        The list of talks from when I organized it is 
+        <a href="/pure-colloquium-historical/">here</a>.
     </p>
 </div>
-
-<div class="seminar-home-talks-list">
-    <table>
-        {% assign talks = site.seminartalks | where: "talkterm", site.seminar_current_term %} {% for talk in talks %}
-        <tr>
-            <td class="seminar-talk-date">
-                <a href="{{talk.url}}">{{talk.talkdate}}</a>
-            </td>
-            <td class="seminar-talk-speaker">
-                {% if talk.speakerurl %}
-                <a href="{{talk.speakerurl}}">{{talk.speaker}}</a>
-                {% else %} {{talk.speaker}} {% endif %} {% if talk.speakershortinst %}
-                <span class="seminar-talk-speaker-inst">{{talk.speakershortinst}}</span>
-                {% endif %}
-            </td>
-            <td class="seminar-talk-title">
-                <a href="{{talk.url}}">{{talk.talktitle}}</a>
-            </td>
-        </tr>
-        {% endfor %}
-    </table>
