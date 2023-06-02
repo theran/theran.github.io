@@ -57,3 +57,6 @@ physicab:
 dam:
     title: Discrete Applied Mathematics
     url: https://www.sciencedirect.com/journal/discrete-applied-mathematics
+sidma:
+    title: SIAM Journal on Discrete Mathematics
+    url: https://epubs.siam.org/journal/sjdmec
