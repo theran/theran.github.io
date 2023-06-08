@@ -10,7 +10,7 @@ authors:
     - meera
     - louis
 title: Computing maximum likelihood thresholds using graph rigidity 
-year: to appear
+year: "to appear"
 journal: algstat
 ---
 
