@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>How to make a site like this one</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/2014/11/12/about-this-site.html">
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.3-latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Louis Theran</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        <a class="page-link" href="/CV/">CV</a>
+          
+        
+          
+        <a class="page-link" href="/bio/">Bio</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        <a class="page-link" href="/contact/">Contact</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">How to make a site like this one</h1>
+    <p class="post-meta">Nov 12, 2014 • Louis Theran</p>
+  </header>
+
+  <article class="post-content">
+    <p>This site is generated with <a href="http://jekyllrb.com/">Jekyll</a>, which is “blog aware”.  I guess
+that means I should have a blog here.  In keeping with the tradition of 
+DIY technology projects, I’m going to start by using it to write about 
+itself, mostly so that I don’t forget what I did.</p>
+
+<h1 id="who-is-this-for">Who is this for?</h1>
+
+<p>Besides me, that is.  If you follow these instructions, you’ll end 
+up with a site that:</p>
+
+<ul>
+  <li>Is under source control with <a href="http://github.com/">git</a></li>
+  <li>Is made of static files, delivered by a <a href="http://fastly.com/">CDN</a> that should provide good speed and uptime</li>
+  <li>Has repetitive parts generated from <a href="http://yaml.org/">structured text files</a> by templates</li>
+  <li>Does not require and databases or servers</li>
+  <li>Is free, unless you want your own <a href="https://en.wikipedia.org/wiki/Second-level_domain">second-level domain name</a></li>
+  <li>Configuration is minimal with no manual upgrades on the <a href="http://pages.github.com/">server-side</a> required</li>
+</ul>
+
+<p>This comes at some cost in flexibility:</p>
+
+<ul>
+  <li>Everything on the site is public</li>
+  <li>TLS isn’t supported</li>
+  <li>You don’t have CGI, SQL, <a href="https://shellshocker.net/">shellshock</a>, etc. support</li>
+</ul>
+
+<p>The bottom line is that these instructions are for publishing 
+public documents, not programming or doing the kinds of fine-gained 
+setups that you’d want a <a href="https://en.wikipedia.org/wiki/Content_management_system">CMS</a> for.</p>
+
+<h1 id="whats-covered">What’s covered?</h1>
+
+<p>We’re going to go through the steps to get the site’s skeleton up and running in a 
+way you can edit it.  The steps are serialized into an order that works.</p>
+
+<p>We’re not going to cover things like <a href="https://html.spec.whatwg.org/multipage/">HTML</a> and <a href="http://www.w3.org/Style/CSS/">CSS</a>
+for formatting the site or give a detailed <a href="https://help.github.com/categories/bootcamp/">introduction to git</a>.
+We’re also not going to cover Windows.  I don’t have a Windows computer.</p>
+
+<h1 id="1-install-jekyll">1. Install Jekyll</h1>
+
+<p>The tool used to actually generate the site is <a href="http://jekyllrb.com/">Jekyll</a>.  This 
+is itself a wrapper around some useful utilities.  Installing it 
+is very easy:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install jekyll
+</code></pre></div></div>
+
+<h1 id="2-get-set-up-with-github">2. Get set up with GitHub</h1>
+
+<p>Next you’ll want a <a href="http://github.com/">GitHub</a> account.  If you don’t have one,
+go make one now.</p>
+
+<p>Once you’ve done that, download the <a href="http://mac.github.com/">GitHub app</a> for Mac.
+Open it and log in with your github username.</p>
+
+<p>If you are using Linux, skip this step and then use the command
+line where I say to use the app below.</p>
+
+<h1 id="3-create-a-minimal-site">3. Create a minimal site</h1>
+
+<p>In the app, select “New Repository” from the file menu.  The name of the 
+new repository should be</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>username.github.io
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">username</code> is your GitHub account.  Pick someplace to put the files, 
+which we’ll call <code class="language-plaintext highlighter-rouge">REPO</code>.  For now, don’t put anything there.  Now 
+open up a terminal and do</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd REPO
+$ git pull https://github.com/theran/theran.github.io.git template 
+</code></pre></div></div>
+
+<p>Keep this terminal open and in the same directory.
+Now edit <code class="language-plaintext highlighter-rouge">_config.yml</code> to include your name and the associated information.<br />
+Then, in the command line again do</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll serve
+</code></pre></div></div>
+
+<p>You should see an empty site at <a href="http://localhost:4000/">http://localhost:4000/</a>.  This is where you’ll 
+test new edits out.  To get going you will want to:</p>
+
+<ul>
+  <li>Edit <code class="language-plaintext highlighter-rouge">contact.md</code> to have your contact information.</li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">bio.md</code> to have your brief bio</li>
+  <li>Put a picture of yourself in <code class="language-plaintext highlighter-rouge">assets/images</code></li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">_includes/picture.html</code> to point at the picture you added and show your address</li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">CV.html</code> to have your actual data</li>
+  <li>Put your papers into <code class="language-plaintext highlighter-rouge">_papers/</code>.  (For the moment, just see <a href="https://github.com/theran/theran.github.io/tree/master/_papers">https://github.com/theran/theran.github.io/tree/master/_papers</a> for the format. Don’t forget to add journals, conferences, and coauthors in <code class="language-plaintext highlighter-rouge">_data/</code>)</li>
+</ul>
+
+<p>As you edit, Jekyll will keep rebuilding, so you can see how it looks at <a href="http://localhost:4000/">http://localhost:4000/</a>.</p>
+
+<h1 id="4-the-publishing-workflow">4. The publishing workflow</h1>
+
+<p>Once you are happy with what you have, go back to the GitHub app.  Click “Commit” and 
+then “Sync” (at the top right).  Wait a minute, and you’ll have a web site at
+<a href="http://username.github.io/">http://username.github.io/</a>.</p>
+
+<p>From now on, the editing and publishing cycle is:</p>
+
+<ul>
+  <li>Start Jekyll with <code class="language-plaintext highlighter-rouge">jekyll serve</code></li>
+  <li>Edit or add files, testing in your browsers at <a href="http://localhost:4000/">http://localhost:4000/</a></li>
+  <li>When you are ready to publish, just do commit in the GitHub app and then Sync</li>
+</ul>
+
+<h1 id="5-get-a-domain-name">5. Get a domain name</h1>
+
+<p>These next two steps are optional.  If you want your own domain name and don’t have 
+one, first you have to buy it.  I recommend to do this with <a href="http://iwantmyname.com">http://iwantmyname.com</a>.</p>
+
+<p>Next you need to tell GitHub about your domain name.  To do this, on the command line 
+run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd REPO
+$ echo yourdomain.example &gt; CNAME
+</code></pre></div></div>
+
+<p>Then commit and sync the new file.</p>
+
+<h1 id="6-get-better-dns-hosting">6. Get better DNS hosting</h1>
+
+<p>If you did already have a domain and aren’t using it for email 
+go on.  <strong>Otherwise, you should stop here and add records to your
+existing zone.</strong>  (I don’t know your configuration, so I won’t be
+too helpful.)</p>
+
+<p>Next, you’ll need to set up your new domain to point at GitHub.  For 
+rather opaque reasons, a lot of DNS providers will give quite poor
+performance.  To get around this, you’ll need an account at 
+<a href="https://www.cloudflare.com">CloudFlare</a>.  Go get one. Pick free and take 
+the default options.</p>
+
+<p>Once you’ve got the CloudFlare account, it will ask you to 
+add a web site.  Type in <code class="language-plaintext highlighter-rouge">yourdomain.example</code>.  It will 
+import any DNS records you have for your zone.  Delete all 
+of these.</p>
+
+<p>Now in the CloudFlare control panel add a <code class="language-plaintext highlighter-rouge">CNAME</code> record 
+for <code class="language-plaintext highlighter-rouge">@</code> to point to <code class="language-plaintext highlighter-rouge">username.github.io</code>.  If you 
+want, also add a <code class="language-plaintext highlighter-rouge">CNAME</code> record for <code class="language-plaintext highlighter-rouge">www</code> to also
+point to <code class="language-plaintext highlighter-rouge">username.github.io</code>. For both of these records 
+click the orange cloud to make it “off CloudFlare”.  It will 
+turn gray. (GitHub is giving you similar features already.)</p>
+
+<p>Finally, look to the right side of the CloudFlare panel 
+above.  It lists two name servers.  Go back to your 
+DNS registrar’s control panel (e.g., at <a href="http://iwantmyname.com">http://iwantmyname.com</a>)
+and paste these into the “set name servers” field, 
+deleting any other name servers.</p>
+
+<p>Wait until everything updates at DNS World HQ, and then 
+your new URL <a href="http://yourdomain.example/">http://yourdomain.example/</a> will
+point to your new site.</p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">Louis Theran</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Louis Theran</li>
+          <li><a href="mailto:lst6@st-andrews.ac.uk">lst6@st-andrews.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/theran">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">theran</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text"></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
